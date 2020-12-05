@@ -28,4 +28,14 @@ public class HomeController {
 		return "index";
 	}
 	
+	@RequestMapping(value = "invoices")
+	public String invoices() {
+		return "patients/invoices";
+	}
+	
+	@RequestMapping(value = "invoice-view")
+	public String invoiceView(){
+		return "patients/invoice-view";
+	}
+	
 }

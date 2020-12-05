@@ -120,7 +120,10 @@ width:auto !important;
 						<a href="">건강정보</a>
 					</li>
 					<li class="has-submenu">
-						<a href="">마이페이지</a>
+						<a href="">마이페이지<i class="fas fa-chevron-down"></i></a>
+						<ul class="submenu">
+							<li><a href="invoices">결제내역</a></li>
+						</ul>
 					</li>
 					
 					<li class="login-link">
