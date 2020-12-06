@@ -8,39 +8,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 		
 		<!-- Favicons -->
-		<link href="resources/img/favicon.png" rel="icon">
+		<link href="assets/img/favicon.png" rel="icon">
 		
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		
 		<!-- Fontawesome CSS -->
-		<link rel="stylesheet" href="resources/plugins/fontawesome/css/fontawesome.min.css">
-		<link rel="stylesheet" href="resources/plugins/fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
 		
 		<!-- Main CSS -->
-		<link rel="stylesheet" href="resources/css/style.css">
+		<link rel="stylesheet" href="assets/css/style.css">
 		
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
-			<script src="resources/js/html5shiv.min.js"></script>
-			<script src="resources/js/respond.min.js"></script>
+			<script src="assets/js/html5shiv.min.js"></script>
+			<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
-	
-	<!-- dr.link 폰트 설정 -->
-	<!-- 구글폰트 -->
-	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&amp;subset=korean" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
-	<style>
-	#drlink{
-		font-family: 'Major Mono Display', monospace; 
-		margin-right: 20px;
-		font-size: 2.25rem;
-		
-	}
-	</style>
-	
-	
 	
 	</head>
 	<body>
@@ -59,14 +43,14 @@
 								<span></span>
 							</span>
 						</a>
-						<a href="index" class="navbar-brand logo">
-							<img src="resources/img/logo.png" class="img-fluid" alt="Logo">
+						<a href="index.html" class="navbar-brand logo">
+							<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
 						</a>
 					</div>
 					<div class="main-menu-wrapper">
 						<div class="menu-header">
-							<a href="index" class="menu-logo">
-								<img src="resources/img/logo.png" class="img-fluid" alt="Logo">
+							<a href="index.html" class="menu-logo">
+								<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
 							</a>
 							<a id="menu_close" class="menu-close" href="javascript:void(0);">
 								<i class="fas fa-times"></i>
@@ -74,27 +58,27 @@
 						</div>
 						<ul class="main-nav">
 							<li>
-								<a href="index">Home</a>
+								<a href="index.html">Home</a>
 							</li>
 							<li class="has-submenu">
 								<a href="">Doctors <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
-									<li><a href="doctor-dashboard">Doctor Dashboard</a></li>
-									<li><a href="appointments">Appointments</a></li>
-									<li><a href="schedule-timings">Schedule Timing</a></li>
-									<li><a href="my-patients">Patients List</a></li>
-									<li><a href="patient-profile">Patients Profile</a></li>
-									<li><a href="chat-doctor">Chat</a></li>
-									<li><a href="invoices">Invoices</a></li>
-									<li><a href="doctor-profile-settings">Profile Settings</a></li>
-									<li><a href="reviews">Reviews</a></li>
-									<li><a href="doctor-register">Doctor Register</a></li>
+									<li><a href="doctor-dashboard.html">Doctor Dashboard</a></li>
+									<li><a href="appointments.html">Appointments</a></li>
+									<li><a href="schedule-timings.html">Schedule Timing</a></li>
+									<li><a href="my-patients.html">Patients List</a></li>
+									<li><a href="patient-profile.html">Patients Profile</a></li>
+									<li><a href="chat-doctor.html">Chat</a></li>
+									<li><a href="invoices.html">Invoices</a></li>
+									<li><a href="doctor-profile-settings.html">Profile Settings</a></li>
+									<li><a href="reviews.html">Reviews</a></li>
+									<li><a href="doctor-register.html">Doctor Register</a></li>
 									<li class="has-submenu">
-										<a href="doctor-blog">Blog</a>
+										<a href="doctor-blog.html">Blog</a>
 										<ul class="submenu">
-											<li><a href="doctor-blog">Blog</a></li>
-											<li><a href="blog-details">Blog view</a></li>
-											<li><a href="doctor-add-blog">Add Blog</a></li>
+											<li><a href="doctor-blog.html">Blog</a></li>
+											<li><a href="blog-details.html">Blog view</a></li>
+											<li><a href="doctor-add-blog.html">Add Blog</a></li>
 										</ul>
 									</li>
 								</ul>
@@ -105,73 +89,73 @@
 									<li class="has-submenu">
 										<a href="#">Doctors</a>
 										<ul class="submenu">
-											<li><a href="map-grid">Map Grid</a></li>
-											<li><a href="map-list">Map List</a></li>
+											<li><a href="map-grid.html">Map Grid</a></li>
+											<li><a href="map-list.html">Map List</a></li>
 										</ul>
 									</li>
-									<li><a href="search">Search Doctor</a></li>
-									<li><a href="doctor-profile">Doctor Profile</a></li>
-									<li><a href="booking">Booking</a></li>
-									<li><a href="checkout">Checkout</a></li>
-									<li><a href="booking-success">Booking Success</a></li>
-									<li><a href="patient-dashboard">Patient Dashboard</a></li>
-									<li><a href="favourites">Favourites</a></li>
-									<li><a href="chat">Chat</a></li>
-									<li><a href="profile-settings">Profile Settings</a></li>
-									<li><a href="change-password">Change Password</a></li>
+									<li><a href="search.html">Search Doctor</a></li>
+									<li><a href="doctor-profile.html">Doctor Profile</a></li>
+									<li><a href="booking.html">Booking</a></li>
+									<li><a href="checkout.html">Checkout</a></li>
+									<li><a href="booking-success.html">Booking Success</a></li>
+									<li><a href="patient-dashboard.html">Patient Dashboard</a></li>
+									<li><a href="favourites.html">Favourites</a></li>
+									<li><a href="chat.html">Chat</a></li>
+									<li><a href="profile-settings.html">Profile Settings</a></li>
+									<li><a href="change-password.html">Change Password</a></li>
 								</ul>
 							</li>	
 							<li class="has-submenu">
 								<a href="">Pharmacy <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
-									<li><a href="pharmacy-index">Pharmacy</a></li>
-									<li><a href="pharmacy-details">Pharmacy Details</a></li>
-									<li><a href="pharmacy-search">Pharmacy Search</a></li>
-									<li><a href="product-all">Product</a></li>
-									<li><a href="product-description">Product Description</a></li>
-									<li><a href="cart">Cart</a></li>
-									<li><a href="product-checkout">Product Checkout</a></li>
-									<li><a href="payment-success">Payment Success</a></li>
+									<li><a href="pharmacy-index.html">Pharmacy</a></li>
+									<li><a href="pharmacy-details.html">Pharmacy Details</a></li>
+									<li><a href="pharmacy-search.html">Pharmacy Search</a></li>
+									<li><a href="product-all.html">Product</a></li>
+									<li><a href="product-description.html">Product Description</a></li>
+									<li><a href="cart.html">Cart</a></li>
+									<li><a href="product-checkout.html">Product Checkout</a></li>
+									<li><a href="payment-success.html">Payment Success</a></li>
 								</ul>
 							</li>
 							<li class="has-submenu active">
 								<a href="">Pages <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
-									<li><a href="voice-call">Voice Call</a></li>
-									<li><a href="video-call">Video Call</a></li>
-									<li><a href="search">Search Doctors</a></li>
-									<li><a href="calendar">Calendar</a></li>
-									<li><a href="components">Components</a></li>
+									<li><a href="voice-call.html">Voice Call</a></li>
+									<li><a href="video-call.html">Video Call</a></li>
+									<li><a href="search.html">Search Doctors</a></li>
+									<li><a href="calendar.html">Calendar</a></li>
+									<li><a href="components.html">Components</a></li>
 									<li class="has-submenu active">
-										<a href="invoices">Invoices</a>
+										<a href="invoices.html">Invoices</a>
 										<ul class="submenu">
-											<li><a href="invoices">Invoices</a></li>
-											<li class="active"><a href="invoice-view">Invoice View</a></li>
+											<li><a href="invoices.html">Invoices</a></li>
+											<li class="active"><a href="invoice-view.html">Invoice View</a></li>
 										</ul>
 									</li>
-									<li><a href="blank-page">Starter Page</a></li>
-									<li><a href="login">Login</a></li>
-									<li><a href="register">Register</a></li>
-									<li><a href="forgot-password">Forgot Password</a></li>
+									<li><a href="blank-page.html">Starter Page</a></li>
+									<li><a href="login.html">Login</a></li>
+									<li><a href="register.html">Register</a></li>
+									<li><a href="forgot-password.html">Forgot Password</a></li>
 								</ul>
 							</li>
 							<li class="has-submenu">
 								<a href="">Blog <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
-									<li><a href="blog-list">Blog List</a></li>
-									<li><a href="blog-grid">Blog Grid</a></li>
-									<li><a href="blog-details">Blog Details</a></li>
+									<li><a href="blog-list.html">Blog List</a></li>
+									<li><a href="blog-grid.html">Blog Grid</a></li>
+									<li><a href="blog-details.html">Blog Details</a></li>
 								</ul>
 							</li>
 							<li class="has-submenu">
 								<a href="#" target="_blank">Admin <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
-									<li><a href="admin/index" target="_blank">Admin</a></li>
-									<li><a href="pharmacy/index" target="_blank">Pharmacy Admin</a></li>
+									<li><a href="admin/index.html" target="_blank">Admin</a></li>
+									<li><a href="pharmacy/index.html" target="_blank">Pharmacy Admin</a></li>
 								</ul>
 							</li>
 							<li class="login-link">
-								<a href="login">Login / Signup</a>
+								<a href="login.html">Login / Signup</a>
 							</li>
 						</ul>
 					</div>		 
@@ -186,7 +170,7 @@
 							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link header-login" href="login">login / Signup </a>
+							<a class="nav-link header-login" href="login.html">login / Signup </a>
 						</li>
 					</ul>
 				</nav>
@@ -200,7 +184,7 @@
 						<div class="col-md-12 col-12">
 							<nav aria-label="breadcrumb" class="page-breadcrumb">
 								<ol class="breadcrumb">
-									<li class="breadcrumb-item"><a href="index">Home</a></li>
+									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
 									<li class="breadcrumb-item active" aria-current="page">Invoice View</li>
 								</ol>
 							</nav>
@@ -222,13 +206,13 @@
 									<div class="row">
 										<div class="col-md-6">
 											<div class="invoice-logo">
-												<h1><a id="drlink" href="#" >Dr.Link</a></h1>
+												<img src="assets/img/logo.png" alt="logo">
 											</div>
 										</div>
 										<div class="col-md-6">
 											<p class="invoice-details">
-												<strong>영수증 번호:</strong> #00124 <br>
-												<strong>결제일:</strong> 2019년 10월 10일
+												<strong>Order:</strong> #00124 <br>
+												<strong>Issued:</strong> 20/07/2019
 											</p>
 										</div>
 									</div>
@@ -239,21 +223,21 @@
 									<div class="row">
 										<div class="col-md-6">
 											<div class="invoice-info">
-												<strong class="customer-text">발행 기관</strong>
+												<strong class="customer-text">Invoice From</strong>
 												<p class="invoice-details invoice-details-two">
-													Dr.Link <br>
-													금천구 가산동 426-5 월드 메르디앙 벤처 센터 2 차 410 호 <br>
-													서울특별시, 대한민국 <br>
+													Dr. Darren Elder <br>
+													806  Twin Willow Lane, Old Forge,<br>
+													Newyork, USA <br>
 												</p>
 											</div>
 										</div>
 										<div class="col-md-6">
 											<div class="invoice-info invoice-info2">
-												<strong class="customer-text">고객 정보</strong>
+												<strong class="customer-text">Invoice To</strong>
 												<p class="invoice-details">
-													환자이름 <br>
-													환자주소 <br>
-													주소 시이름, 주소 국가이름 <br>
+													Walter Roberson <br>
+													299 Star Trek Drive, Panama City, <br>
+													Florida, 32405, USA <br>
 												</p>
 											</div>
 										</div>
@@ -266,11 +250,11 @@
 									<div class="row">
 										<div class="col-md-12">
 											<div class="invoice-info">
-												<strong class="customer-text">결제정보</strong>
+												<strong class="customer-text">Payment Method</strong>
 												<p class="invoice-details invoice-details-two">
-													신용카드 <br>
+													Debit Card <br>
 													XXXXXXXXXXXX-2541 <br>
-													KB국민은행<br>
+													HDFC Bank<br>
 												</p>
 											</div>
 										</div>
@@ -286,33 +270,24 @@
 												<table class="invoice-table table table-bordered">
 													<thead>
 														<tr>
-															<th>처방의약품의 코드</th>
-															<th>처방의약품의 명칭</th>
-															<th class="text-center">1회 투약량</th>
-															<th class="text-center">1일 투약횟수</th>
-															<th class="text-center">총 투약일수</th>
-															<th class="text-center">개당 가격</th>
-															<th class="text-right">총 금액</th>
+															<th>Description</th>
+															<th class="text-center">Quantity</th>
+															<th class="text-center">VAT</th>
+															<th class="text-right">Total</th>
 														</tr>
 													</thead>
 													<tbody>
 														<tr>
-															<td>22485100</td>
-															<td>유시락스시럽</td>
+															<td>General Consultation</td>
 															<td class="text-center">1</td>
-															<td class="text-center">2</td>
-															<td class="text-center">1</td>
-															<td class="text-center">1,200 <span>원</span></td>
-															<td class="text-right">2,400 <span>원</span></td>
+															<td class="text-center">$0</td>
+															<td class="text-right">$100</td>
 														</tr>
 														<tr>
-															<td>10000001</td>
-															<td>원격 화상 진료</td>
+															<td>Video Call Booking</td>
 															<td class="text-center">1</td>
-															<td class="text-center">1</td>
-															<td class="text-center">1</td>
-															<td class="text-center">21,000 <span>원</span></td>
-															<td class="text-right">21,000 <span>원</span></td>
+															<td class="text-center">$0</td>
+															<td class="text-right">$250</td>
 														</tr>
 													</tbody>
 												</table>
@@ -323,16 +298,16 @@
 												<table class="invoice-table-two table">
 													<tbody>
 													<tr>
-														<th>합 금액:</th>
-														<td><span>23,400 <span>원</span></span></td>
+														<th>Subtotal:</th>
+														<td><span>$350</span></td>
 													</tr>
 													<tr>
-														<th>보험적용:</th>
+														<th>Discount:</th>
 														<td><span>-10%</span></td>
 													</tr>
 													<tr>
-														<th>최종금액:</th>
-														<td><span>21,060<span>원</span></span></td>
+														<th>Total Amount:</th>
+														<td><span>$315</span></td>
 													</tr>
 													</tbody>
 												</table>
@@ -344,8 +319,8 @@
 								
 								<!-- Invoice Information -->
 								<div class="other-info">
-									<h4>사용기간</h4>
-									<p class="text-muted mb-0">교부일로부터 3일간 내에 약국에 제출하여야 합니다.</p>
+									<h4>Other information</h4>
+									<p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed dictum ligula, cursus blandit risus. Maecenas eget metus non tellus dignissim aliquam ut a ex. Maecenas sed vehicula dui, ac suscipit lacus. Sed finibus leo vitae lorem interdum, eu scelerisque tellus fermentum. Curabitur sit amet lacinia lorem. Nullam finibus pellentesque libero.</p>
 								</div>
 								<!-- /Invoice Information -->
 								
@@ -370,7 +345,7 @@
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-about">
 									<div class="footer-logo">
-										<img src="resources/img/footer-logo.png" alt="logo">
+										<img src="assets/img/footer-logo.png" alt="logo">
 									</div>
 									<div class="footer-about-content">
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -405,11 +380,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Patients</h2>
 									<ul>
-										<li><a href="search">Search for Doctors</a></li>
-										<li><a href="login">Login</a></li>
-										<li><a href="register">Register</a></li>
-										<li><a href="booking">Booking</a></li>
-										<li><a href="patient-dashboard">Patient Dashboard</a></li>
+										<li><a href="search.html">Search for Doctors</a></li>
+										<li><a href="login.html">Login</a></li>
+										<li><a href="register.html">Register</a></li>
+										<li><a href="booking.html">Booking</a></li>
+										<li><a href="patient-dashboard.html">Patient Dashboard</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
@@ -422,11 +397,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Doctors</h2>
 									<ul>
-										<li><a href="appointments">Appointments</a></li>
-										<li><a href="chat">Chat</a></li>
-										<li><a href="login">Login</a></li>
-										<li><a href="doctor-register">Register</a></li>
-										<li><a href="doctor-dashboard">Doctor Dashboard</a></li>
+										<li><a href="appointments.html">Appointments</a></li>
+										<li><a href="chat.html">Chat</a></li>
+										<li><a href="login.html">Login</a></li>
+										<li><a href="doctor-register.html">Register</a></li>
+										<li><a href="doctor-dashboard.html">Doctor Dashboard</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
@@ -479,8 +454,8 @@
 									<!-- Copyright Menu -->
 									<div class="copyright-menu">
 										<ul class="policy-menu">
-											<li><a href="term-condition">Terms and Conditions</a></li>
-											<li><a href="privacy-policy">Policy</a></li>
+											<li><a href="term-condition.html">Terms and Conditions</a></li>
+											<li><a href="privacy-policy.html">Policy</a></li>
 										</ul>
 									</div>
 									<!-- /Copyright Menu -->
@@ -501,14 +476,14 @@
 		<!-- /Main Wrapper -->
 	  
 		<!-- jQuery -->
-		<script src="resources/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
 		
 		<!-- Bootstrap Core JS -->
-		<script src="resources/js/popper.min.js"></script>
-		<script src="resources/js/bootstrap.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
 		
 		<!-- Custom JS -->
-		<script src="resources/js/script.js"></script>
+		<script src="assets/js/script.js"></script>
 		
 	</body>
 </html>

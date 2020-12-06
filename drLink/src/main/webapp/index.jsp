@@ -123,6 +123,7 @@ width:auto !important;
 						<a href="">마이페이지<i class="fas fa-chevron-down"></i></a>
 						<ul class="submenu">
 							<li><a href="invoices">결제내역</a></li>
+							<li><a href="checkout">결제하기</a></li>
 						</ul>
 					</li>
 					

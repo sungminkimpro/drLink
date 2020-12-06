@@ -8,22 +8,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 		
 		<!-- Favicons -->
-		<link href="resources/img/favicon.png" rel="icon">
+		<link href="assets/img/favicon.png" rel="icon">
 		
 		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		
 		<!-- Fontawesome CSS -->
-		<link rel="stylesheet" href="resources/plugins/fontawesome/css/fontawesome.min.css">
-		<link rel="stylesheet" href="resources/plugins/fontawesome/css/all.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+		<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
 		
 		<!-- Main CSS -->
-		<link rel="stylesheet" href="resources/css/style.css">
+		<link rel="stylesheet" href="assets/css/style.css">
 		
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
-			<script src="resources/js/html5shiv.min.js"></script>
-			<script src="resources/js/respond.min.js"></script>
+			<script src="assets/js/html5shiv.min.js"></script>
+			<script src="assets/js/respond.min.js"></script>
 		<![endif]-->
 	
 	</head>
@@ -43,14 +43,14 @@
 								<span></span>
 							</span>
 						</a>
-						<a href="index" class="navbar-brand logo">
-							<img src="resources/img/logo.png" class="img-fluid" alt="Logo">
+						<a href="index.html" class="navbar-brand logo">
+							<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
 						</a>
 					</div>
 					<div class="main-menu-wrapper">
 						<div class="menu-header">
-							<a href="index" class="menu-logo">
-								<img src="resources/img/logo.png" class="img-fluid" alt="Logo">
+							<a href="index.html" class="menu-logo">
+								<img src="assets/img/logo.png" class="img-fluid" alt="Logo">
 							</a>
 							<a id="menu_close" class="menu-close" href="javascript:void(0);">
 								<i class="fas fa-times"></i>
@@ -58,104 +58,96 @@
 						</div>
 						<ul class="main-nav">
 							<li>
-								<a href="index">Home</a>
+								<a href="index.html">Home</a>
 							</li>
 							<li class="has-submenu">
 								<a href="">Doctors <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
-									<li><a href="doctor-dashboard">Doctor Dashboard</a></li>
-									<li><a href="appointments">Appointments</a></li>
-									<li><a href="schedule-timings">Schedule Timing</a></li>
-									<li><a href="my-patients">Patients List</a></li>
-									<li><a href="patient-profile">Patients Profile</a></li>
-									<li><a href="chat-doctor">Chat</a></li>
-									<li><a href="invoices">Invoices</a></li>
-									<li><a href="doctor-profile-settings">Profile Settings</a></li>
-									<li><a href="reviews">Reviews</a></li>
-									<li><a href="doctor-register">Doctor Register</a></li>
-									<li class="has-submenu">
-										<a href="doctor-blog">Blog</a>
-										<ul class="submenu">
-											<li><a href="doctor-blog">Blog</a></li>
-											<li><a href="blog-details">Blog view</a></li>
-											<li><a href="doctor-add-blog">Add Blog</a></li>
-										</ul>
-									</li>
+									<li><a href="doctor-dashboard.html">Doctor Dashboard</a></li>
+									<li><a href="appointments.html">Appointments</a></li>
+									<li><a href="schedule-timings.html">Schedule Timing</a></li>
+									<li><a href="my-patients.html">Patients List</a></li>
+									<li><a href="patient-profile.html">Patients Profile</a></li>
+									<li><a href="chat-doctor.html">Chat</a></li>
+									<li><a href="invoices.html">Invoices</a></li>
+									<li><a href="doctor-profile-settings.html">Profile Settings</a></li>
+									<li><a href="reviews.html">Reviews</a></li>
+									<li><a href="doctor-register.html">Doctor Register</a></li>
 								</ul>
 							</li>	
-							<li class="has-submenu active">
+							<li class="has-submenu">
 								<a href="">Patients <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
 									<li class="has-submenu">
 										<a href="#">Doctors</a>
 										<ul class="submenu">
-											<li><a href="map-grid">Map Grid</a></li>
-											<li><a href="map-list">Map List</a></li>
+											<li><a href="map-grid.html">Map Grid</a></li>
+											<li><a href="map-list.html">Map List</a></li>
 										</ul>
 									</li>
-									<li><a href="search">Search Doctor</a></li>
-									<li><a href="doctor-profile">Doctor Profile</a></li>
-									<li><a href="booking">Booking</a></li>
-									<li class="active"><a href="checkout">Checkout</a></li>
-									<li><a href="booking-success">Booking Success</a></li>
-									<li><a href="patient-dashboard">Patient Dashboard</a></li>
-									<li><a href="favourites">Favourites</a></li>
-									<li><a href="chat">Chat</a></li>
-									<li><a href="profile-settings">Profile Settings</a></li>
-									<li><a href="change-password">Change Password</a></li>
+									<li><a href="search.html">Search Doctor</a></li>
+									<li><a href="doctor-profile.html">Doctor Profile</a></li>
+									<li><a href="booking.html">Booking</a></li>
+									<li><a href="checkout.html">Checkout</a></li>
+									<li><a href="booking-success.html">Booking Success</a></li>
+									<li><a href="patient-dashboard.html">Patient Dashboard</a></li>
+									<li><a href="favourites.html">Favourites</a></li>
+									<li><a href="chat.html">Chat</a></li>
+									<li><a href="profile-settings.html">Profile Settings</a></li>
+									<li><a href="change-password.html">Change Password</a></li>
 								</ul>
 							</li>	
-							<li class="has-submenu">
+							<li class="has-submenu active">
 								<a href="">Pharmacy <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
-									<li><a href="pharmacy-index">Pharmacy</a></li>
-									<li><a href="pharmacy-details">Pharmacy Details</a></li>
-									<li><a href="pharmacy-search">Pharmacy Search</a></li>
-									<li><a href="product-all">Product</a></li>
-									<li><a href="product-description">Product Description</a></li>
-									<li><a href="cart">Cart</a></li>
-									<li><a href="product-checkout">Product Checkout</a></li>
-									<li><a href="payment-success">Payment Success</a></li>
+									<li><a href="pharmacy-index.html">Pharmacy</a></li>
+									<li><a href="pharmacy-details.html">Pharmacy Details</a></li>
+									<li><a href="pharmacy-search.html">Pharmacy Search</a></li>
+									<li><a href="product-all.html">Product</a></li>
+									<li><a href="product-description.html">Product Description</a></li>
+									<li><a href="cart.html">Cart</a></li>
+									<li class="active"><a href="product-checkout.html">Product Checkout</a></li>
+									<li><a href="payment-success.html">Payment Success</a></li>
 								</ul>
 							</li>
 							<li class="has-submenu">
 								<a href="">Pages <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
-									<li><a href="voice-call">Voice Call</a></li>
-									<li><a href="video-call">Video Call</a></li>
-									<li><a href="search">Search Doctors</a></li>
-									<li><a href="calendar">Calendar</a></li>
-									<li><a href="components">Components</a></li>
+									<li><a href="voice-call.html">Voice Call</a></li>
+									<li><a href="video-call.html">Video Call</a></li>
+									<li><a href="search.html">Search Doctors</a></li>
+									<li><a href="calendar.html">Calendar</a></li>
+									<li><a href="components.html">Components</a></li>
 									<li class="has-submenu">
-										<a href="invoices">Invoices</a>
+										<a href="invoices.html">Invoices</a>
 										<ul class="submenu">
-											<li><a href="invoices">Invoices</a></li>
-											<li><a href="invoice-view">Invoice View</a></li>
+											<li><a href="invoices.html">Invoices</a></li>
+											<li><a href="invoice-view.html">Invoice View</a></li>
 										</ul>
 									</li>
-									<li><a href="blank-page">Starter Page</a></li>
-									<li><a href="login">Login</a></li>
-									<li><a href="register">Register</a></li>
-									<li><a href="forgot-password">Forgot Password</a></li>
+									<li><a href="blank-page.html">Starter Page</a></li>
+									<li><a href="login.html">Login</a></li>
+									<li><a href="register.html">Register</a></li>
+									<li><a href="forgot-password.html">Forgot Password</a></li>
 								</ul>
 							</li>
 							<li class="has-submenu">
 								<a href="">Blog <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
-									<li><a href="blog-list">Blog List</a></li>
-									<li><a href="blog-grid">Blog Grid</a></li>
-									<li><a href="blog-details">Blog Details</a></li>
+									<li><a href="blog-list.html">Blog List</a></li>
+									<li><a href="blog-grid.html">Blog Grid</a></li>
+									<li><a href="blog-details.html">Blog Details</a></li>
 								</ul>
 							</li>
 							<li class="has-submenu">
 								<a href="#" target="_blank">Admin <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
-									<li><a href="admin/index" target="_blank">Admin</a></li>
-									<li><a href="pharmacy/index" target="_blank">Pharmacy Admin</a></li>
+									<li><a href="admin/index.html" target="_blank">Admin</a></li>
+									<li><a href="pharmacy/index.html" target="_blank">Pharmacy Admin</a></li>
 								</ul>
 							</li>
 							<li class="login-link">
-								<a href="login">Login / Signup</a>
+								<a href="login.html">Login / Signup</a>
 							</li>
 						</ul>		 
 					</div>		 
@@ -170,7 +162,7 @@
 							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link header-login" href="login">login / Signup </a>
+							<a class="nav-link header-login" href="login.html">login / Signup </a>
 						</li>
 					</ul>
 				</nav>
@@ -184,7 +176,7 @@
 						<div class="col-md-12 col-12">
 							<nav aria-label="breadcrumb" class="page-breadcrumb">
 								<ol class="breadcrumb">
-									<li class="breadcrumb-item"><a href="index">Home</a></li>
+									<li class="breadcrumb-item"><a href="index.html">Home</a></li>
 									<li class="breadcrumb-item active" aria-current="page">Checkout</li>
 								</ol>
 							</nav>
@@ -200,52 +192,104 @@
 				<div class="container">
 
 					<div class="row">
-						<div class="col-md-7 col-lg-8">
+						<div class="col-md-6 col-lg-7">
 							<div class="card">
+								<div class="card-header">
+									<h3 class="card-title">Billing details</h3>
+								</div>
 								<div class="card-body">
 								
 									<!-- Checkout Form -->
-									<form action="booking-success">
+									<form action="payment-success.html">
+									
+										<!-- Personal Information -->
+										<div class="info-widget">
+											<h4 class="card-title">Personal Information</h4>
+											<div class="row">
+												<div class="col-md-6 col-sm-12">
+													<div class="form-group card-label">
+														<label>First Name</label>
+														<input class="form-control" type="text">
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-12">
+													<div class="form-group card-label">
+														<label>Last Name</label>
+														<input class="form-control" type="text">
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-12">
+													<div class="form-group card-label">
+														<label>Email</label>
+														<input class="form-control" type="email">
+													</div>
+												</div>
+												<div class="col-md-6 col-sm-12">
+													<div class="form-group card-label">
+														<label>Phone</label>
+														<input class="form-control" type="text">
+													</div>
+												</div>
+											</div>
+											<div class="exist-customer">Existing Customer? <a href="#">Click here to login</a></div>
+										</div>
+										<!-- /Personal Information -->
+
+										<!-- Shipping Details -->
+										<div class="info-widget">
+											<h4 class="card-title">Shipping Details</h4>
+											<div class="terms-accept">
+												<div class="custom-checkbox">
+												   <input type="checkbox" id="terms_accept">
+												   <label for="terms_accept">Ship to a different address?</label>
+												</div>
+											</div>
+											<div class="form-group card-label">
+												<label class="pl-0 ml-0 mb-2">Order notes (Optional)</label>
+												<textarea rows="5" class="form-control" name="shipping"></textarea>
+											</div>
+										</div>
+										<!-- /Shipping Details -->
 										
 										<div class="payment-widget">
-											<h4 class="card-title">결제</h4>
+											<h4 class="card-title">Payment Method</h4>
 											
 											<!-- Credit Card Payment -->
 											<div class="payment-list">
 												<label class="payment-radio credit-card-option">
 													<input type="radio" name="radio" checked>
 													<span class="checkmark"></span>
-													카드결제
+													Credit card
 												</label>
 												<div class="row">
 													<div class="col-md-6">
 														<div class="form-group card-label">
-															<label for="card_name">카드에 명시된 이름</label>
+															<label for="card_name">Name on Card</label>
 															<input class="form-control" id="card_name" type="text">
 														</div>
 													</div>
 													<div class="col-md-6">
 														<div class="form-group card-label">
-															<label for="card_number">카드 번호</label>
-															<input class="form-control" id="card_number" placeholder="ex) 1234  5678  9876  5432" type="text">
+															<label for="card_number">Card Number</label>
+															<input class="form-control" id="card_number" placeholder="1234  5678  9876  5432" type="text">
 														</div>
 													</div>
 													<div class="col-md-4">
 														<div class="form-group card-label">
-															<label for="expiry_month">카드 유효기간</label>
-															<input class="form-control" id="expiry_month" placeholder="월 ex) 10" type="text">
+															<label for="expiry_month">Expiry Month</label>
+															<input class="form-control" id="expiry_month" placeholder="MM" type="text">
 														</div>
 													</div>
 													<div class="col-md-4">
 														<div class="form-group card-label">
-															<label for="expiry_year">카드 유효기간</label>
-															<input class="form-control" id="expiry_year" placeholder="년 ex) 24" type="text">
+															<label for="expiry_year">Expiry Year</label>
+															<input class="form-control" id="expiry_year" placeholder="YY" type="text">
 														</div>
 													</div>
 													<div class="col-md-4">
 														<div class="form-group card-label">
 															<label for="cvv">CVV</label>
-															<input class="form-control" id="cvv" placeholder="카드 뒷면 참고 ex) 654" type="text">
+															<input class="form-control" id="cvv" type="text">
 														</div>
 													</div>
 												</div>
@@ -261,19 +305,19 @@
 												</label>
 											</div>
 											<!-- /Paypal Payment -->
-											
+
 											<!-- Terms Accept -->
 											<div class="terms-accept">
 												<div class="custom-checkbox">
-												   <input type="checkbox" id="terms_accept">
-												   <label for="terms_accept">결제 내용을 확인하였으며 <a href="#">위 내용에 </a><span>동의합니다.</span></label>
+												   <input type="checkbox" id="terms_accept1">
+												   <label for="terms_accept1">I have read and accept <a href="#">Terms &amp; Conditions</a></label>
 												</div>
 											</div>
 											<!-- /Terms Accept -->
 											
 											<!-- Submit Section -->
 											<div class="submit-section mt-4">
-												<button type="submit" class="btn btn-primary submit-btn">결제하기</button>
+												<button type="submit" class="btn btn-primary submit-btn">Confirm and Pay</button>
 											</div>
 											<!-- /Submit Section -->
 											
@@ -286,45 +330,48 @@
 							
 						</div>
 						
-						<div class="col-md-5 col-lg-4 theiaStickySidebar">
+						<div class="col-md-6 col-lg-5 theiaStickySidebar">
 						
 							<!-- Booking Summary -->
 							<div class="card booking-card">
 								<div class="card-header">
-									<h4 class="card-title">결제 내역</h4>
+									<h3 class="card-title">Your Order</h3>
 								</div>
 								<div class="card-body">
-								
-									<!-- Booking Doctor Info -->
-									<div class="booking-doc-info">
-										<a href="doctor-profile" class="booking-doc-img">
-											<img src="resources/img/doctors/doctor-thumb-02.jpg" alt="User Image">
-										</a>
-										<div class="booking-info">
-											<h4><a href="doctor-profile">담당의사 이름</a></h4>
-											<div class="clinic-details">
-												<p class="doc-location"> 피부전문의</p>
-											</div>
-										</div>
+									<div class="table-responsive">
+										<table class="table table-center mb-0">
+											<tr>
+												<th>Product</th>
+												<th class="text-right">Total</th>
+											</tr>
+											<tbody>
+												<tr>
+													<td>Safi Natural Blood Purifier Syrup 200 ml Manufactured By Hamdard (Wakf) Laboratories</td>
+													<td class="text-right">$200</td>
+												</tr>
+												<tr>
+													<td>Safi Natural Blood Purifier Syrup 200 ml</td>
+													<td class="text-right">$200</td>
+												</tr>
+											</tbody>
+										</table>
 									</div>
-									<!-- Booking Doctor Info -->
-									
-									<div class="booking-summary">
+									<div class="booking-summary pt-5">
 										<div class="booking-item-wrap">
 											<ul class="booking-date">
-												<li>진료일 <span>2019년 10월 10일</span></li>
-												<li>진료시작 시간 <span>10:00 오전</span></li>
+												<li>Subtotal <span>$5,877.00</span></li>
+												<li>Shipping <span>$25.00</span></li>
 											</ul>
 											<ul class="booking-fee">
-												<li>유시락스시럽 <span>2,400 <span>원</span></span></li>
-												<li>원격 화상 진료 <span>21,000 <span>원</span></span></li>
+												<li>Tax <span>$0.00</span></li>
 											</ul>
 											<div class="booking-total">
 												<ul class="booking-total-list">
 													<li>
-														<span>총 금액</span>
-														<span class="total-cost">23,400 <span>원</span></span>
+														<span>Total</span>
+														<span class="total-cost">$160</span>
 													</li>
+													<li>
 												</ul>
 											</div>
 										</div>
@@ -353,7 +400,7 @@
 								<!-- Footer Widget -->
 								<div class="footer-widget footer-about">
 									<div class="footer-logo">
-										<img src="resources/img/footer-logo.png" alt="logo">
+										<img src="assets/img/footer-logo.png" alt="logo">
 									</div>
 									<div class="footer-about-content">
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -388,11 +435,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Patients</h2>
 									<ul>
-										<li><a href="search">Search for Doctors</a></li>
-										<li><a href="login">Login</a></li>
-										<li><a href="register">Register</a></li>
-										<li><a href="booking">Booking</a></li>
-										<li><a href="patient-dashboard">Patient Dashboard</a></li>
+										<li><a href="search.html">Search for Doctors</a></li>
+										<li><a href="login.html">Login</a></li>
+										<li><a href="register.html">Register</a></li>
+										<li><a href="booking.html">Booking</a></li>
+										<li><a href="patient-dashboard.html">Patient Dashboard</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
@@ -405,11 +452,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">For Doctors</h2>
 									<ul>
-										<li><a href="appointments">Appointments</a></li>
-										<li><a href="chat">Chat</a></li>
-										<li><a href="login">Login</a></li>
-										<li><a href="doctor-register">Register</a></li>
-										<li><a href="doctor-dashboard">Doctor Dashboard</a></li>
+										<li><a href="appointments.html">Appointments</a></li>
+										<li><a href="chat.html">Chat</a></li>
+										<li><a href="login.html">Login</a></li>
+										<li><a href="doctor-register.html">Register</a></li>
+										<li><a href="doctor-dashboard.html">Doctor Dashboard</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
@@ -462,8 +509,8 @@
 									<!-- Copyright Menu -->
 									<div class="copyright-menu">
 										<ul class="policy-menu">
-											<li><a href="term-condition">Terms and Conditions</a></li>
-											<li><a href="privacy-policy">Policy</a></li>
+											<li><a href="term-condition.html">Terms and Conditions</a></li>
+											<li><a href="privacy-policy.html">Policy</a></li>
 										</ul>
 									</div>
 									<!-- /Copyright Menu -->
@@ -484,18 +531,18 @@
 		<!-- /Main Wrapper -->
 	  
 		<!-- jQuery -->
-		<script src="resources/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
 		
 		<!-- Bootstrap Core JS -->
-		<script src="resources/js/popper.min.js"></script>
-		<script src="resources/js/bootstrap.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
 		
 		<!-- Sticky Sidebar JS -->
-        <script src="resources/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
-        <script src="resources/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+        <script src="assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+        <script src="assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
 		
 		<!-- Custom JS -->
-		<script src="resources/js/script.js"></script>
+		<script src="assets/js/script.js"></script>
 		
 	</body>
 </html>

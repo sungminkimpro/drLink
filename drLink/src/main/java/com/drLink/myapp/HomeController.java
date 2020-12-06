@@ -24,18 +24,25 @@ public class HomeController {
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String index() {
-		
-		return "index";
+		return "../../index";
 	}
 	
+	//결제내역
 	@RequestMapping(value = "invoices")
 	public String invoices() {
 		return "patients/invoices";
 	}
-	
+
+	//결제 상세보기
 	@RequestMapping(value = "invoice-view")
 	public String invoiceView(){
 		return "patients/invoice-view";
+	}
+	
+	//결제하기
+	@RequestMapping(value = "checkout")
+	public String checkout(){
+		return "patients/checkout";
 	}
 	
 }
