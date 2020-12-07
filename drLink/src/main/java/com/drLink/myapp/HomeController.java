@@ -44,5 +44,35 @@ public class HomeController {
 	public String checkout(){
 		return "patients/checkout";
 	}
+
+	//결제완료
+	@RequestMapping(value = "payment-success")
+	public String paymentSuccess(){
+		return "patients/payment-success";
+	}
+	
+	//의사리스트 및 검색
+	@RequestMapping(value = "search")
+	public String search(){
+		return "patients/search";
+	}
+	
+	//의사프로필 상세보기
+	@RequestMapping(value = "doctor-profile")
+	public String doctorProfile(){
+		return "doctor/doctor-profile";
+	}
+	
+	//즐겨찾기 의사보기
+	@RequestMapping(value = "favourites")
+	public String favourites(){
+		return "patients/favourites";
+	}
+	
+	//ai진단 완료
+	@RequestMapping(value = "aiTest-success")
+	public String aiTestSuccess(){
+		return "patients/aiTest-success";
+	}
 	
 }

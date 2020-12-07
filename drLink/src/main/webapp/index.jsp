@@ -124,6 +124,9 @@ width:auto !important;
 						<ul class="submenu">
 							<li><a href="invoices">결제내역</a></li>
 							<li><a href="checkout">결제하기</a></li>
+							<li><a href="search">의사리스트</a></li>
+							<li><a href="favourites">즐겨찾는 의사보기</a></li>
+							<li><a href="aiTestSuccess">ai진단완료</a></li>
 						</ul>
 					</li>
 					

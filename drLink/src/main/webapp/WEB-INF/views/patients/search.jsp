@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html> 
 <html lang="en">
 	<head>
@@ -226,7 +228,7 @@
 							<!-- Search Filter -->
 							<div class="card search-filter">
 								<div class="card-header">
-									<h4 class="card-title mb-0">Search Filter</h4>
+									<h4 class="card-title mb-0">검색 필터</h4>
 								</div>
 								<div class="card-body">
 								<div class="filter-widget">
@@ -239,57 +241,57 @@
 									<div>
 										<label class="custom_check">
 											<input type="checkbox" name="gender_type" checked>
-											<span class="checkmark"></span> Male Doctor
+											<span class="checkmark"></span> 남자 의사
 										</label>
 									</div>
 									<div>
 										<label class="custom_check">
 											<input type="checkbox" name="gender_type">
-											<span class="checkmark"></span> Female Doctor
+											<span class="checkmark"></span> 여자 의사
 										</label>
 									</div>
 								</div>
 								<div class="filter-widget">
-									<h4>Select Specialist</h4>
+									<h4>전공별 검색</h4>
 									<div>
 										<label class="custom_check">
 											<input type="checkbox" name="select_specialist" checked>
-											<span class="checkmark"></span> Urology
+											<span class="checkmark"></span> 피부과
 										</label>
 									</div>
 									<div>
 										<label class="custom_check">
 											<input type="checkbox" name="select_specialist" checked>
-											<span class="checkmark"></span> Neurology
+											<span class="checkmark"></span> 정신건강의학과
 										</label>
 									</div>
 									<div>
 										<label class="custom_check">
 											<input type="checkbox" name="select_specialist">
-											<span class="checkmark"></span> Dentist
+											<span class="checkmark"></span> 내과
 										</label>
 									</div>
 									<div>
 										<label class="custom_check">
 											<input type="checkbox" name="select_specialist">
-											<span class="checkmark"></span> Orthopedic
+											<span class="checkmark"></span> 안과
 										</label>
 									</div>
 									<div>
 										<label class="custom_check">
 											<input type="checkbox" name="select_specialist">
-											<span class="checkmark"></span> Cardiologist
+											<span class="checkmark"></span> 소아청소년과
 										</label>
 									</div>
 									<div>
 										<label class="custom_check">
 											<input type="checkbox" name="select_specialist">
-											<span class="checkmark"></span> Cardiologist
+											<span class="checkmark"></span> 이비인후과
 										</label>
 									</div>
 								</div>
 									<div class="btn-search">
-										<button type="button" class="btn btn-block">Search</button>
+										<button type="button" class="btn btn-block">검색</button>
 									</div>	
 								</div>
 							</div>
@@ -310,81 +312,10 @@
 												</a>
 											</div>
 											<div class="doc-info-cont">
-												<h4 class="doc-name"><a href="doctor-profile">Dr. Ruby Perrin</a></h4>
-												<p class="doc-speciality">MDS - Periodontology and Oral Implantology, BDS</p>
-												<h5 class="doc-department"><img src="resources/img/specialities/specialities-05.png" class="img-fluid" alt="Speciality">Dentist</h5>
-												<div class="rating">
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star"></i>
-													<span class="d-inline-block average-rating">(17)</span>
-												</div>
-												<div class="clinic-details">
-													<p class="doc-location"><i class="fas fa-map-marker-alt"></i> Florida, USA</p>
-													<ul class="clinic-gallery">
-														<li>
-															<a href="resources/img/features/feature-01.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-01.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-02.jpg" data-fancybox="gallery">
-																<img  src="resources/img/features/feature-02.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-03.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-03.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-04.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-04.jpg" alt="Feature">
-															</a>
-														</li>
-													</ul>
-												</div>
-												<div class="clinic-services">
-													<span>Dental Fillings</span>
-													<span> Whitneing</span>
-												</div>
-											</div>
-										</div>
-										<div class="doc-info-right">
-											<div class="clini-infos">
-												<ul>
-													<li><i class="far fa-thumbs-up"></i> 98%</li>
-													<li><i class="far fa-comment"></i> 17 Feedback</li>
-													<li><i class="fas fa-map-marker-alt"></i> Florida, USA</li>
-													<li><i class="far fa-money-bill-alt"></i> $300 - $1000 <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i> </li>
-												</ul>
-											</div>
-											<div class="clinic-booking">
-												<a class="view-pro-btn" href="doctor-profile">View Profile</a>
-												<a class="apt-btn" href="booking">Book Appointment</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- /Doctor Widget -->
-
-							<!-- Doctor Widget -->
-							<div class="card">
-								<div class="card-body">
-									<div class="doctor-widget">
-										<div class="doc-info-left">
-											<div class="doctor-img">
-												<a href="doctor-profile">
-													<img src="resources/img/doctors/doctor-thumb-02.jpg" class="img-fluid" alt="User Image">
-												</a>
-											</div>
-											<div class="doc-info-cont">
-												<h4 class="doc-name"><a href="doctor-profile">Dr. Darren Elder</a></h4>
-												<p class="doc-speciality">BDS, MDS - Oral & Maxillofacial Surgery</p>
-												<h5 class="doc-department"><img src="resources/img/specialities/specialities-05.png" class="img-fluid" alt="Speciality">Dentist</h5>
+												<h4 class="doc-name"><a href="doctor-profile">Dr. 홍길동</a></h4>
+												<p class="doc-speciality">피부는 "마음의 거울" 이라고 합니다.<br>
+표면적인 피부뿐만이 아니라, 드러나지 않는 마음의 거울에서까지 빛이 날수 있도록 최선을 다하며 노력하겠습니다.</p>
+												<h5 class="doc-department"><img src="resources/img/specialities/specialities-05.png" class="img-fluid" alt="Speciality">피부과전문의</h5>
 												<div class="rating">
 													<i class="fas fa-star filled"></i>
 													<i class="fas fa-star filled"></i>
@@ -393,56 +324,29 @@
 													<i class="fas fa-star"></i>
 													<span class="d-inline-block average-rating">(35)</span>
 												</div>
-												<div class="clinic-details">
-													<p class="doc-location"><i class="fas fa-map-marker-alt"></i> Newyork, USA</p>
-													<ul class="clinic-gallery">
-														<li>
-															<a href="resources/img/features/feature-01.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-01.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-02.jpg" data-fancybox="gallery">
-																<img  src="resources/img/features/feature-02.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-03.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-03.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-04.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-04.jpg" alt="Feature">
-															</a>
-														</li>
-													</ul>
-												</div>
 												<div class="clinic-services">
-													<span>Dental Fillings</span>
-													<span> Whitneing</span>
+													<span>아토피피부염</span>
+													<span>여드름</span>
 												</div>
 											</div>
 										</div>
 										<div class="doc-info-right">
 											<div class="clini-infos">
 												<ul>
-													<li><i class="far fa-thumbs-up"></i> 100%</li>
-													<li><i class="far fa-comment"></i> 35 Feedback</li>
-													<li><i class="fas fa-map-marker-alt"></i> Newyork, USA</li>
-													<li><i class="far fa-money-bill-alt"></i> $50 - $300 <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i></li>
+													<li><i class="far fa-thumbs-up"></i> 98%</li>
+													<li><i class="far fa-money-bill-alt"></i> 21,400<span>원</span> <i class="fas fa-info-circle" data-toggle="tooltip" title="시간당 원격화상진료비를 나타냅니다."></i> </li>
 												</ul>
 											</div>
 											<div class="clinic-booking">
-												<a class="view-pro-btn" href="doctor-profile">View Profile</a>
-												<a class="apt-btn" href="booking">Book Appointment</a>
+												<a class="view-pro-btn" href="doctor-profile">프로필보기</a>
+												<a class="apt-btn" href="booking">예약하기</a>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 							<!-- /Doctor Widget -->
-
+							
 							<!-- Doctor Widget -->
 							<div class="card">
 								<div class="card-body">
@@ -450,207 +354,37 @@
 										<div class="doc-info-left">
 											<div class="doctor-img">
 												<a href="doctor-profile">
-													<img src="resources/img/doctors/doctor-thumb-03.jpg" class="img-fluid" alt="User Image">
+													<img src="resources/img/doctors/doctor-thumb-01.jpg" class="img-fluid" alt="User Image">
 												</a>
 											</div>
 											<div class="doc-info-cont">
-												<h4 class="doc-name"><a href="doctor-profile">Dr. Deborah Angel</a></h4>
-												<p class="doc-speciality">MBBS, MD - General Medicine, DNB - Cardiology</p>
-												<p class="doc-department"><img src="resources/img/specialities/specialities-04.png" class="img-fluid" alt="Speciality">Cardiology</p>
+												<h4 class="doc-name"><a href="doctor-profile">Dr. 홍길자</a></h4>
+												<p class="doc-speciality">피부는 "마음의 거울" 이라고 합니다.<br>
+표면적인 피부뿐만이 아니라, 드러나지 않는 마음의 거울에서까지 빛이 날수 있도록 최선을 다하며 노력하겠습니다.</p>
+												<h5 class="doc-department"><img src="resources/img/specialities/specialities-05.png" class="img-fluid" alt="Speciality">피부과전문의</h5>
 												<div class="rating">
 													<i class="fas fa-star filled"></i>
 													<i class="fas fa-star filled"></i>
 													<i class="fas fa-star filled"></i>
 													<i class="fas fa-star filled"></i>
 													<i class="fas fa-star"></i>
-													<span class="d-inline-block average-rating">(27)</span>
-												</div>
-												<div class="clinic-details">
-													<p class="doc-location"><i class="fas fa-map-marker-alt"></i> Georgia, USA</p>
-													<ul class="clinic-gallery">
-														<li>
-															<a href="resources/img/features/feature-01.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-01.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-02.jpg" data-fancybox="gallery">
-																<img  src="resources/img/features/feature-02.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-03.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-03.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-04.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-04.jpg" alt="Feature">
-															</a>
-														</li>
-													</ul>
+													<span class="d-inline-block average-rating">(35)</span>
 												</div>
 												<div class="clinic-services">
-													<span>Dental Fillings</span>
-													<span> Whitneing</span>
+													<span>아토피피부염</span>
+													<span>여드름</span>
 												</div>
 											</div>
 										</div>
 										<div class="doc-info-right">
 											<div class="clini-infos">
 												<ul>
-													<li><i class="far fa-thumbs-up"></i> 99%</li>
-													<li><i class="far fa-comment"></i> 35 Feedback</li>
-													<li><i class="fas fa-map-marker-alt"></i> Newyork, USA</li>
-													<li><i class="far fa-money-bill-alt"></i> $100 - $400 <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i></li>
+													<li><i class="far fa-thumbs-up"></i> 98%</li>
+													<li><i class="far fa-money-bill-alt"></i> 21,400<span>원</span> <i class="fas fa-info-circle" data-toggle="tooltip" title="시간당 원경화상진료비를 나타냅니다."></i> </li>
 												</ul>
 											</div>
 											<div class="clinic-booking">
-												<a class="view-pro-btn" href="doctor-profile">View Profile</a>
-												<a class="apt-btn" href="booking">Book Appointment</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- /Doctor Widget -->
-
-							<!-- Doctor Widget -->
-							<div class="card">
-								<div class="card-body">
-									<div class="doctor-widget">
-										<div class="doc-info-left">
-											<div class="doctor-img">
-												<a href="doctor-profile">
-													<img src="resources/img/doctors/doctor-thumb-04.jpg" class="img-fluid" alt="User Image">
-												</a>
-											</div>
-											<div class="doc-info-cont">
-												<h4 class="doc-name"><a href="doctor-profile">Dr. Sofia Brient</a></h4>
-												<p class="doc-speciality">MBBS, MS - General Surgery, MCh - Urology</p>
-												<p class="doc-department"><img src="resources/img/specialities/specialities-01.png" class="img-fluid" alt="Speciality">Urology</p>
-												<div class="rating">
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star"></i>
-													<span class="d-inline-block average-rating">(4)</span>
-												</div>
-												<div class="clinic-details">
-													<p class="doc-location"><i class="fas fa-map-marker-alt"></i> Louisiana, USA</p>
-													<ul class="clinic-gallery">
-														<li>
-															<a href="resources/img/features/feature-01.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-01.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-02.jpg" data-fancybox="gallery">
-																<img  src="resources/img/features/feature-02.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-03.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-03.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-04.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-04.jpg" alt="Feature">
-															</a>
-														</li>
-													</ul>
-												</div>
-												<div class="clinic-services">
-													<span>Dental Fillings</span>
-													<span> Whitneing</span>
-												</div>
-											</div>
-										</div>
-										<div class="doc-info-right">
-											<div class="clini-infos">
-												<ul>
-													<li><i class="far fa-thumbs-up"></i> 97%</li>
-													<li><i class="far fa-comment"></i> 4 Feedback</li>
-													<li><i class="fas fa-map-marker-alt"></i> Newyork, USA</li>
-													<li><i class="far fa-money-bill-alt"></i> $150 - $250 <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i></li>
-												</ul>
-											</div>
-											<div class="clinic-booking">
-												<a class="view-pro-btn" href="doctor-profile">View Profile</a>
-												<a class="apt-btn" href="booking">Book Appointment</a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<!-- /Doctor Widget -->
-
-							<!-- Doctor Widget -->
-							<div class="card">
-								<div class="card-body">
-									<div class="doctor-widget">
-										<div class="doc-info-left">
-											<div class="doctor-img">
-												<a href="doctor-profile">
-													<img src="resources/img/doctors/doctor-thumb-06.jpg" class="img-fluid" alt="User Image">
-												</a>
-											</div>
-											<div class="doc-info-cont">
-												<h4 class="doc-name"><a href="doctor-profile">Dr. Katharine Berthold</a></h4>
-												<p class="doc-speciality">MS - Orthopaedics, MBBS, M.Ch - Orthopaedics</p>
-												<p class="doc-department"><img src="resources/img/specialities/specialities-03.png" class="img-fluid" alt="Speciality">Orthopaedics</p>
-												<div class="rating">
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star filled"></i>
-													<i class="fas fa-star"></i>
-													<span class="d-inline-block average-rating">(52)</span>
-												</div>
-												<div class="clinic-details">
-													<p class="doc-location"><i class="fas fa-map-marker-alt"></i> Texas, USA</p>
-													<ul class="clinic-gallery">
-														<li>
-															<a href="resources/img/features/feature-01.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-01.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-02.jpg" data-fancybox="gallery">
-																<img  src="resources/img/features/feature-02.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-03.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-03.jpg" alt="Feature">
-															</a>
-														</li>
-														<li>
-															<a href="resources/img/features/feature-04.jpg" data-fancybox="gallery">
-																<img src="resources/img/features/feature-04.jpg" alt="Feature">
-															</a>
-														</li>
-													</ul>
-												</div>
-												<div class="clinic-services">
-													<span>Dental Fillings</span>
-													<span> Whitneing</span>
-												</div>
-											</div>
-										</div>
-										<div class="doc-info-right">
-											<div class="clini-infos">
-												<ul>
-													<li><i class="far fa-thumbs-up"></i> 100%</li>
-													<li><i class="far fa-comment"></i> 52 Feedback</li>
-													<li><i class="fas fa-map-marker-alt"></i> Texas, USA</li>
-													<li><i class="far fa-money-bill-alt"></i> $100 - $500 <i class="fas fa-info-circle" data-toggle="tooltip" title="Lorem Ipsum"></i></li>
-												</ul>
-											</div>
-											<div class="clinic-booking">
-												<a class="view-pro-btn" href="doctor-profile">View Profile</a>
+												<a class="view-pro-btn" href="doctorProfile">프로필 보기</a>
 												<a class="apt-btn" href="booking">Book Appointment</a>
 											</div>
 										</div>
@@ -660,7 +394,7 @@
 							<!-- /Doctor Widget -->
 
 							<div class="load-more text-center">
-								<a class="btn btn-primary btn-sm" href="javascript:void(0);">Load More</a>	
+								<a class="btn btn-primary btn-sm" href="javascript:void(0);">더 보기</a>	
 							</div>	
 						</div>
 					</div>
