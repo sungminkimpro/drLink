@@ -123,4 +123,10 @@ public class HomeController {
 		return "admin/index";
 	}
 	
+	//관리자 메인
+	@RequestMapping(value = "doctorDashboard")
+	public String doctorDashboard(){
+		return "doctor/doctor-dashboard";
+	}
+	
 }
