@@ -127,6 +127,7 @@ width:auto !important;
 							<li><a href="search">의사리스트</a></li>
 							<li><a href="favourites">즐겨찾는 의사보기</a></li>
 							<li><a href="aiTestSuccess">ai진단완료</a></li>
+							<li><a href="doctorDashboard">의사대쉬보드</a></li>
 						</ul>
 					</li>
 					<li class="has-submenu">
