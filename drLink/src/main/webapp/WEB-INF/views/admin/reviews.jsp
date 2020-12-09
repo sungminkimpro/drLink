@@ -8,26 +8,26 @@
         <title>Doccure - Reviews Page</title>
 		
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="resources/img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="resources/admin/img/favicon.png">
 		
 		<!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/admin/css/bootstrap.min.css">
 		
 		<!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+        <link rel="stylesheet" href="resources/admin/css/font-awesome.min.css">
 		
 		<!-- Feathericon CSS -->
-        <link rel="stylesheet" href="resources/css/feathericon.min.css">
+        <link rel="stylesheet" href="resources/admin/css/feathericon.min.css">
 		
 		<!-- Datatables CSS -->
-		<link rel="stylesheet" href="resources/plugins/datatables/datatables.min.css">
+		<link rel="stylesheet" href="resources/admin/plugins/datatables/datatables.min.css">
 		
 		<!-- Main CSS -->
-        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="stylesheet" href="resources/admin/css/style.css">
 		
 		<!--[if lt IE 9]>
-			<script src="resources/js/html5shiv.min.js"></script>
-			<script src="resources/js/respond.min.js"></script>
+			<script src="resources/admin/js/html5shiv.min.js"></script>
+			<script src="resources/admin/js/respond.min.js"></script>
 		<![endif]-->
     </head>
     <body>
@@ -41,10 +41,10 @@
 				<!-- Logo -->
                 <div class="header-left">
                     <a href="index" class="logo">
-						<img src="resources/img/logo.png" alt="Logo">
+						<img src="resources/admin/img/logo.png" alt="Logo">
 					</a>
 					<a href="index" class="logo logo-small">
-						<img src="resources/img/logo-small.png" alt="Logo" width="30" height="30">
+						<img src="resources/admin/img/logo-small.png" alt="Logo" width="30" height="30">
 					</a>
                 </div>
 				<!-- /Logo -->
@@ -85,7 +85,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/doctors/doctor-thumb-01.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="resources/admin/img/doctors/doctor-thumb-01.jpg">
 												</span>
 												<div class="media-body">
 													<p class="noti-details"><span class="noti-title">Dr. Ruby Perrin</span> Schedule <span class="noti-title">her appointment</span></p>
@@ -98,7 +98,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/patients/patient1.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="resources/admin/img/patients/patient1.jpg">
 												</span>
 												<div class="media-body">
 													<p class="noti-details"><span class="noti-title">Charlene Reed</span> has booked her appointment to <span class="noti-title">Dr. Ruby Perrin</span></p>
@@ -111,7 +111,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/patients/patient2.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="resources/admin/img/patients/patient2.jpg">
 												</span>
 												<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Travis Trimble</span> sent a amount of $210 for his <span class="noti-title">appointment</span></p>
@@ -124,7 +124,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/patients/patient3.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="resources/admin/img/patients/patient3.jpg">
 												</span>
 												<div class="media-body">
 													<p class="noti-details"><span class="noti-title">Carl Kelly</span> send a message <span class="noti-title"> to his doctor</span></p>
@@ -145,12 +145,12 @@
 					<!-- User Menu -->
 					<li class="nav-item dropdown has-arrow">
 						<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-							<span class="user-img"><img class="rounded-circle" src="resources/img/profiles/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
+							<span class="user-img"><img class="rounded-circle" src="resources/admin/img/profiles/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
 						</a>
 						<div class="dropdown-menu">
 							<div class="user-header">
 								<div class="avatar avatar-sm">
-									<img src="resources/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+									<img src="resources/admin/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
 								</div>
 								<div class="user-text">
 									<h6>Ryan Taylor</h6>
@@ -304,10 +304,10 @@
 					<div class="page-header">
 						<div class="row">
 							<div class="col-sm-12">
-								<h3 class="page-title">Reviews</h3>
+								<h3 class="page-title">리뷰관리</h3>
 								<ul class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index">Dashboard</a></li>
-									<li class="breadcrumb-item active">Reviews</li>
+									<li class="breadcrumb-item active">리뷰관리</li>
 								</ul>
 							</div>
 						</div>
@@ -322,26 +322,29 @@
 										<table class="datatable table table-hover table-center mb-0">
 											<thead>
 												<tr>
-													<th>Patient Name</th>
-													<th>Doctor Name</th>
-													<th>Ratings</th>
-													<th>Description</th>
-													<th>Date</th>
-													<th class="text-right">Actions</th>
+													<th>환자아이디</th>
+													<th>환자이름</th>
+													<th>의사이름</th>
+													<th>점수</th>
+													<th>처방전</th>
+													<th>작성일</th>
+													<th class="text-right">삭제</th>
 												</tr>
 											</thead>
 											<tbody>
+												<!-- 리뷰 목록 -->
 												<tr>
+													<td>hong01</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient1.jpg" alt="User Image"></a>
-															<a href="profile">Charlene Reed </a>
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/admin/img/patients/patient1.jpg" alt="User Image"></a>
+															<a href="profile">홍길숙 </a>
 														</h2>
 													</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Ruby Perrin</a>
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/admin/img/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
+															<a href="profile">홍길동</a>
 														</h2>
 													</td>
 													
@@ -354,31 +357,31 @@
 													</td>
 													
 													<td>
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit
+														처방전이름
 													</td>
-														<td>3 Nov 2019 <br><small>09.59 AM</small></td>
+														<td>2019년 10월 10일 <br><small>09.59 오전</small></td>
 													<td class="text-right">
 														<div class="actions">
 															<a class="btn btn-sm bg-danger-light" data-toggle="modal" href="#delete_modal">
-																<i class="fe fe-trash"></i> Delete
+																<i class="fe fe-trash"></i> 삭제
 															</a>
 															
 														</div>
 													</td>
 												</tr>
+											<!-- 리뷰 목록 -->
 												<tr>
+													<td>hong01</td>
 													<td>
 														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient2.jpg" alt="User Image"></a>
-															<a href="profile">Travis Trimble </a>
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/admin/img/patients/patient1.jpg" alt="User Image"></a>
+															<a href="profile">홍길숙 </a>
 														</h2>
 													</td>
-													
-												
 													<td>
 														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-02.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Darren Elder</a>
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/admin/img/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
+															<a href="profile">홍길동</a>
 														</h2>
 													</td>
 													
@@ -391,296 +394,13 @@
 													</td>
 													
 													<td>
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit
+														처방전이름
 													</td>
-														<td>2 Nov 2019<br> <small>08.50 AM</small></td>
+														<td>2019년 10월 10일 <br><small>09.59 오전</small></td>
 													<td class="text-right">
 														<div class="actions">
 															<a class="btn btn-sm bg-danger-light" data-toggle="modal" href="#delete_modal">
-																<i class="fe fe-trash"></i> Delete
-															</a>
-															
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient3.jpg" alt="User Image"></a>
-															<a href="profile">Carl Kelly</a>
-														</h2>
-													</td>
-												
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-03.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Deborah Angel</a>
-														</h2>
-													</td>
-													
-													<td>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star-o text-secondary"></i>
-													</td>
-													
-													<td>
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit
-													</td>
-														<td>1 Nov 2019<br> <small>02.59 PM</small></td>
-													<td class="text-right">
-														<div class="actions">
-															<a class="btn btn-sm bg-danger-light" data-toggle="modal" href="#delete_modal">
-																<i class="fe fe-trash"></i> Delete
-															</a>
-															
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient4.jpg" alt="User Image"></a>
-															<a href="profile"> Michelle Fairfax</a>
-														</h2>
-													</td>
-													
-												
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-04.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Sofia Brient</a>
-														</h2>
-													</td>
-													
-													<td>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star-o text-secondary"></i>
-													</td>
-													
-													<td>
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit
-													</td>
-														<td>27 Sep 2019 <br><small>03.40 PM</small></td>
-													<td class="text-right">
-														<div class="actions">
-															<a class="btn btn-sm bg-danger-light" data-toggle="modal" href="#delete_modal">
-																<i class="fe fe-trash"></i> Delete
-															</a>
-															
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient5.jpg" alt="User Image"></a>
-															<a href="profile">Gina Moore</a>
-														</h2>
-													</td>
-													
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-05.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Marvin Campbell</a>
-														</h2>
-													</td>
-													
-													<td>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star-o text-secondary"></i>
-													</td>
-													
-													<td>
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit
-													</td>
-														<td>24 Sep 2019 <br><small>04.38 PM</small></td>
-													<td class="text-right">
-														<div class="actions">
-															<a class="btn btn-sm bg-danger-light" data-toggle="modal" href="#delete_modal">
-																<i class="fe fe-trash"></i> Delete
-															</a>
-															
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient6.jpg" alt="User Image"></a>
-															<a href="profile">Elsie Gilley</a>
-														</h2>
-													</td>
-													
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-06.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Katharine Berthold</a>
-														</h2>
-													</td>
-													<td>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star-o text-secondary"></i>
-													</td>
-													
-													<td>
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit
-													</td>
-														<td>22 Aug 2019 <br><small>01.50 PM</small></td>
-													<td class="text-right">
-														<div class="actions">
-															<a class="btn btn-sm bg-danger-light" data-toggle="modal" href="#delete_modal">
-																<i class="fe fe-trash"></i> Delete
-															</a>
-															
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient7.jpg" alt="User Image"></a>
-															<a href="profile">Joan Gardner</a>
-														</h2>
-													</td>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-07.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Linda Tobin</a>
-														</h2>
-													</td>
-													
-													<td>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star-o text-secondary"></i>
-													</td>
-													
-													<td>
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit
-													</td>
-														<td>21 Jul 2019 <br><small>05.50 PM</small></td>
-													<td class="text-right">
-														<div class="actions">
-															<a class="btn btn-sm bg-danger-light" data-toggle="modal" href="#delete_modal">
-																<i class="fe fe-trash"></i> Delete
-															</a>
-															
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient8.jpg" alt="User Image"></a>
-															<a href="profile">Daniel Griffing</a>
-														</h2>
-													</td>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-08.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Paul Richard</a>
-														</h2>
-													</td>
-													<td>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star-o text-secondary"></i>
-													</td>
-													
-													<td>
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit
-													</td>
-														<td>16 Jun 2019 <br><small>04.50 PM</small></td>
-													<td class="text-right">
-														<div class="actions">
-															<a class="btn btn-sm bg-danger-light" data-toggle="modal" href="#delete_modal">
-																<i class="fe fe-trash"></i> Delete
-															</a>
-															
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient9.jpg" alt="User Image"></a>
-															<a href="profile">Walter Roberson</a>
-														</h2>
-													</td>
-													
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-09.jpg" alt="User Image"></a>
-															<a href="profile">Dr. John Gibbs</a>
-														</h2>
-													</td>
-													<td>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star-o text-secondary"></i>
-													</td>
-													
-													<td>
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit
-													</td>
-														<td>11 Mar 2019 <br><small>05.55 PM</small></td>
-													<td class="text-right">
-														<div class="actions">
-															<a class="btn btn-sm bg-danger-light" data-toggle="modal" href="#delete_modal">
-																<i class="fe fe-trash"></i> Delete
-															</a>
-															
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient10.jpg" alt="User Image"></a>
-															<a href="profile">Harry Williams</a>
-														</h2>
-													</td>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-10.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Olga Barlow</a>
-														</h2>
-													</td>
-													
-													<td>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star-o text-secondary"></i>
-													</td>
-													
-													<td>
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit
-													</td>
-														<td>15 Feb 2019 <br><small>07.30 PM</small></td>
-													<td class="text-right">
-														<div class="actions">
-															<a class="btn btn-sm bg-danger-light" data-toggle="modal" href="#delete_modal">
-																<i class="fe fe-trash"></i> Delete
+																<i class="fe fe-trash"></i> 삭제
 															</a>
 															
 														</div>
@@ -710,10 +430,10 @@
 						</div>-->
 						<div class="modal-body">
 							<div class="form-content p-2">
-								<h4 class="modal-title">Delete</h4>
-								<p class="mb-4">Are you sure want to delete?</p>
-								<button type="button" class="btn btn-primary">Save </button>
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								<h4 class="modal-title">삭제하기</h4>
+								<p class="mb-4">해당 리뷰를 정말로 삭제하시겠습니까??</p>
+								<button type="button" class="btn btn-primary">삭제하기 </button>
+								<button type="button" class="btn btn-danger" data-dismiss="modal">취소하기</button>
 							</div>
 						</div>
 					</div>
@@ -724,21 +444,21 @@
 		<!-- /Main Wrapper -->
 		
 		<!-- jQuery -->
-        <script src="resources/js/jquery-3.2.1.min.js"></script>
+        <script src="resources/admin/js/jquery-3.2.1.min.js"></script>
 		
 		<!-- Bootstrap Core JS -->
-        <script src="resources/js/popper.min.js"></script>
-        <script src="resources/js/bootstrap.min.js"></script>
+        <script src="resources/admin/js/popper.min.js"></script>
+        <script src="resources/admin/js/bootstrap.min.js"></script>
 		
 		<!-- Slimscroll JS -->
-        <script src="resources/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="resources/admin/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 		
 		<!-- Datatables JS -->
-		<script src="resources/plugins/datatables/jquery.dataTables.min.js"></script>
-		<script src="resources/plugins/datatables/datatables.min.js"></script>
+		<script src="resources/admin/plugins/datatables/jquery.dataTables.min.js"></script>
+		<script src="resources/admin/plugins/datatables/datatables.min.js"></script>
 		
 		<!-- Custom JS -->
-		<script  src="resources/js/script.js"></script>
+		<script  src="resources/admin/js/script.js"></script>
 		
     </body>
 </html>

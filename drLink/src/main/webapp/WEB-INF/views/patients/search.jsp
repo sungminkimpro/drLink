@@ -385,7 +385,7 @@
 											</div>
 											<div class="clinic-booking">
 												<a class="view-pro-btn" href="doctorProfile">프로필 보기</a>
-												<a class="apt-btn" href="booking">Book Appointment</a>
+												<a class="apt-btn" href="booking">예약하기</a>
 											</div>
 										</div>
 									</div>

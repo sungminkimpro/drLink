@@ -8,26 +8,26 @@
         <title>Doccure - Doctor List Page</title>
 		
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="resources/img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="resources/admin/img/favicon.png">
 		
 		<!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/admin/css/bootstrap.min.css">
 		
 		<!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+        <link rel="stylesheet" href="resources/admin/css/font-awesome.min.css">
 		
 		<!-- Feathericon CSS -->
-        <link rel="stylesheet" href="resources/css/feathericon.min.css">
+        <link rel="stylesheet" href="resources/admin/css/feathericon.min.css">
 		
 		<!-- Datatables CSS -->
-		<link rel="stylesheet" href="resources/plugins/datatables/datatables.min.css">
+		<link rel="stylesheet" href="resources/admin/plugins/datatables/datatables.min.css">
 		
 		<!-- Main CSS -->
-        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="stylesheet" href="resources/admin/css/style.css">
 		
 		<!--[if lt IE 9]>
-			<script src="resources/js/html5shiv.min.js"></script>
-			<script src="resources/js/respond.min.js"></script>
+			<script src="resources/admin/js/html5shiv.min.js"></script>
+			<script src="resources/admin/js/respond.min.js"></script>
 		<![endif]-->
     </head>
     <body>
@@ -41,10 +41,10 @@
 				<!-- Logo -->
                 <div class="header-left">
                     <a href="index" class="logo">
-						<img src="resources/img/logo.png" alt="Logo">
+						<img src="resources/admin/img/logo.png" alt="Logo">
 					</a>
 					<a href="index" class="logo logo-small">
-						<img src="resources/img/logo-small.png" alt="Logo" width="30" height="30">
+						<img src="resources/admin/img/logo-small.png" alt="Logo" width="30" height="30">
 					</a>
                 </div>
 				<!-- /Logo -->
@@ -85,7 +85,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/doctors/doctor-thumb-01.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="resources/admin/img/doctors/doctor-thumb-01.jpg">
 												</span>
 												<div class="media-body">
 													<p class="noti-details"><span class="noti-title">Dr. Ruby Perrin</span> Schedule <span class="noti-title">her appointment</span></p>
@@ -98,7 +98,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/patients/patient1.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="resources/admin/img/patients/patient1.jpg">
 												</span>
 												<div class="media-body">
 													<p class="noti-details"><span class="noti-title">Charlene Reed</span> has booked her appointment to <span class="noti-title">Dr. Ruby Perrin</span></p>
@@ -111,7 +111,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/patients/patient2.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="resources/admin/img/patients/patient2.jpg">
 												</span>
 												<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Travis Trimble</span> sent a amount of $210 for his <span class="noti-title">appointment</span></p>
@@ -124,7 +124,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/patients/patient3.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="resources/admin/img/patients/patient3.jpg">
 												</span>
 												<div class="media-body">
 													<p class="noti-details"><span class="noti-title">Carl Kelly</span> send a message <span class="noti-title"> to his doctor</span></p>
@@ -145,12 +145,12 @@
 					<!-- User Menu -->
 					<li class="nav-item dropdown has-arrow">
 						<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-							<span class="user-img"><img class="rounded-circle" src="resources/img/profiles/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
+							<span class="user-img"><img class="rounded-circle" src="resources/admin/img/profiles/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
 						</a>
 						<div class="dropdown-menu">
 							<div class="user-header">
 								<div class="avatar avatar-sm">
-									<img src="resources/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+									<img src="resources/admin/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
 								</div>
 								<div class="user-text">
 									<h6>Ryan Taylor</h6>
@@ -304,11 +304,11 @@
 					<div class="page-header">
 						<div class="row">
 							<div class="col-sm-12">
-								<h3 class="page-title">List of Doctors</h3>
+								<h3 class="page-title">의사목록</h3>
 								<ul class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index">Dashboard</a></li>
 									<li class="breadcrumb-item"><a href="javascript:(0);">Users</a></li>
-									<li class="breadcrumb-item active">Doctor</li>
+									<li class="breadcrumb-item active">의사</li>
 								</ul>
 							</div>
 						</div>
@@ -323,27 +323,29 @@
 										<table class="datatable table table-hover table-center mb-0">
 											<thead>
 												<tr>
-													<th>Doctor Name</th>
-													<th>Speciality</th>
-													<th>Member Since</th>
-													<th>Earned</th>
-													<th>Account Status</th>
+													<th>의사이름</th>
+													<th>전공과목</th>
+													<th>입사일</th>
+													<th>연봉</th>
+													<th>활성화 및 비활성화</th>
+													<th class="text-right">수정 및 삭제</th>
 													
 												</tr>
 											</thead>
 											<tbody>
+												<!--  의사 리스트 -->
 												<tr>
 													<td>
 														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Ruby Perrin</a>
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/admin/img/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
+															<a href="profile">홍길동</a>
 														</h2>
 													</td>
-													<td>Dental</td>
+													<td>피부과</td>
 													
-													<td>14 Jan 2019 <br><small>02.59 AM</small></td>
+													<td>2018년 10월 10일 <br><small>10.20 오전</small></td>
 													
-													<td>$3100.00</td>
+													<td>54,000,000<span>원</span></td>
 													
 													<td>
 														<div class="status-toggle">
@@ -351,19 +353,30 @@
 															<label for="status_1" class="checktoggle">checkbox</label>
 														</div>
 													</td>
+													<td class="text-right">
+														<div class="actions">
+															<a class="btn btn-sm bg-success-light" data-toggle="modal" href="#edit_specialities_details">
+																<i class="fe fe-pencil"></i> 수정
+															</a>
+															<a  data-toggle="modal" href="#delete_modal" class="btn btn-sm bg-danger-light">
+																<i class="fe fe-trash"></i> 삭제
+															</a>
+														</div>
+													</td>
 												</tr>
+												<!--  의사 리스트 -->
 												<tr>
 													<td>
 														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-02.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Darren Elder</a>
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/admin/img/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
+															<a href="profile">홍길자</a>
 														</h2>
 													</td>
-													<td>Dental</td>
+													<td>피부과</td>
 													
-													<td>11 Jun 2019 <br><small>4.50 AM</small></td>
+													<td>2018년 10월 10일 <br><small>10.20 오전</small></td>
 													
-													<td>$5000.00</td>
+													<td>54,000,000<span>원</span></td>
 													
 													<td>
 														<div class="status-toggle">
@@ -371,19 +384,30 @@
 															<label for="status_1" class="checktoggle">checkbox</label>
 														</div>
 													</td>
+													<td class="text-right">
+														<div class="actions">
+															<a class="btn btn-sm bg-success-light" data-toggle="modal" href="#edit_specialities_details">
+																<i class="fe fe-pencil"></i> 수정
+															</a>
+															<a  data-toggle="modal" href="#delete_modal" class="btn btn-sm bg-danger-light">
+																<i class="fe fe-trash"></i> 삭제
+															</a>
+														</div>
+													</td>
 												</tr>
+												<!--  의사 리스트 -->
 												<tr>
 													<td>
 														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-03.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Deborah Angel</a>
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/admin/img/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
+															<a href="profile">홍길이</a>
 														</h2>
 													</td>
-													<td>Cardiology</td>
+													<td>피부과</td>
 													
-													<td>4 Jan 2018 <br><small>9.40 AM</small></td>
+													<td>2018년 10월 10일 <br><small>10.20 오전</small></td>
 													
-													<td>$3300.00</td>
+													<td>54,000,000<span>원</span></td>
 													
 													<td>
 														<div class="status-toggle">
@@ -391,144 +415,14 @@
 															<label for="status_1" class="checktoggle">checkbox</label>
 														</div>
 													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-04.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Sofia Brient</a>
-														</h2>
-													</td>
-													<td>Urology</td>
-													
-													<td>5 Jul 2019 <br><small>12.59 AM</small></td>
-													
-													<td>$3500.00</td>
-													
-													<td>
-														<div class="status-toggle">
-															<input type="checkbox" id="status_1" class="check" checked>
-															<label for="status_1" class="checktoggle">checkbox</label>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-05.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Marvin Campbell</a>
-														</h2>
-													</td>
-													<td>Orthopaedics</td>
-													
-													<td>24 Jan 2019 <br><small>02.59 AM</small></td>
-													
-													<td>$3700.00</td>
-													
-													<td>
-														<div class="status-toggle">
-															<input type="checkbox" id="status_1" class="check" checked>
-															<label for="status_1" class="checktoggle">checkbox</label>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-06.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Katharine Berthold</a>
-														</h2>
-													</td>
-													<td>Orthopaedics</td>
-													
-													<td>23 Mar 2019 <br><small>02.50 PM</small></td>
-													
-													<td>$4000.00</td>
-													
-													<td>
-														<div class="status-toggle">
-															<input type="checkbox" id="status_1" class="check" checked>
-															<label for="status_1" class="checktoggle">checkbox</label>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-07.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Linda Tobin</a>
-														</h2>
-													</td>
-													<td>Neurology</td>
-													
-													<td>14 Dec 2018 <br><small>01.59 AM</small></td>
-													
-													<td>$2000.00</td>
-													
-													<td>
-														<div class="status-toggle">
-															<input type="checkbox" id="status_1" class="check" checked>
-															<label for="status_1" class="checktoggle">checkbox</label>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-08.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Paul Richard</a>
-														</h2>
-													</td>
-													<td>Dermatology</td>
-													
-													<td>11 Jan 2019 <br><small>02.59 AM</small></td>
-													
-													<td>$3000.00</td>
-													
-													<td>
-														<div class="status-toggle">
-															<input type="checkbox" id="status_1" class="check" checked>
-															<label for="status_1" class="checktoggle">checkbox</label>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-09.jpg" alt="User Image"></a>
-															<a href="profile">Dr. John Gibbs</a>
-														</h2>
-													</td>
-													<td>Dental</td>
-													
-													<td>21 Apr 2018 <br><small>02.59 PM</small></td>
-													
-													<td>$4100.00</td>
-													
-													<td>
-														<div class="status-toggle">
-															<input type="checkbox" id="status_1" class="check" checked>
-															<label for="status_1" class="checktoggle">checkbox</label>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-10.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Olga Barlow</a>
-														</h2>
-													</td>
-													<td>Dental</td>
-													
-													<td>15 Feb 2018 <br><small>03.59 AM</small></td>
-													
-													<td>$3500.00</td>
-													
-													<td>
-														<div class="status-toggle">
-															<input type="checkbox" id="status_1" class="check" checked>
-															<label for="status_1" class="checktoggle">checkbox</label>
+													<td class="text-right">
+														<div class="actions">
+															<a class="btn btn-sm bg-success-light" data-toggle="modal" href="#edit_specialities_details">
+																<i class="fe fe-pencil"></i> 수정
+															</a>
+															<a  data-toggle="modal" href="#delete_modal" class="btn btn-sm bg-danger-light">
+																<i class="fe fe-trash"></i> 삭제
+															</a>
 														</div>
 													</td>
 												</tr>
@@ -546,23 +440,89 @@
 		
         </div>
 		<!-- /Main Wrapper -->
+			
+					
+			<!-- Edit Details Modal -->
+			<div class="modal fade" id="edit_specialities_details" aria-hidden="true" role="dialog">
+				<div class="modal-dialog modal-dialog-centered" role="document" >
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">진료과목 수정</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<form>
+								<div class="row form-row">
+									<div class="col-12 col-sm-6">
+										<div class="form-group">
+											<label>진료과목</label>
+											<input type="text" class="form-control" value="진료과목">
+										</div>
+									</div>
+									<div class="col-12 col-sm-6">
+										<div class="form-group">
+											<label>입사일</label>
+											<input type="text" class="form-control" value="입사일">
+										</div>
+									</div>
+									<div class="col-12 col-sm-6">
+										<div class="form-group">
+											<label>연봉</label>
+											<input type="text" class="form-control" value="연봉">
+										</div>
+									</div>									
+								</div>
+								<button type="submit" class="btn btn-primary btn-block">저장하기</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Edit Details Modal -->
+			
+			<!-- Delete Modal -->
+			<div class="modal fade" id="delete_modal" aria-hidden="true" role="dialog">
+				<div class="modal-dialog modal-dialog-centered" role="document" >
+					<div class="modal-content">
+					<!--	<div class="modal-header">
+							<h5 class="modal-title">Delete</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>-->
+						<div class="modal-body">
+							<div class="form-content p-2">
+								<h4 class="modal-title">의사 삭제</h4>
+								<p class="mb-4">정말로 해당 의사를 삭제하시겠습니까?</p>
+								<button type="button" class="btn btn-primary">삭제하기 </button>
+								<button type="button" class="btn btn-danger" data-dismiss="modal">취소하기</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Delete Modal -->
+        </div>
+		<!-- /Main Wrapper -->
 		
 		<!-- jQuery -->
-        <script src="resources/js/jquery-3.2.1.min.js"></script>
+        <script src="resources/admin/js/jquery-3.2.1.min.js"></script>
 		
 		<!-- Bootstrap Core JS -->
-        <script src="resources/js/popper.min.js"></script>
-        <script src="resources/js/bootstrap.min.js"></script>
+        <script src="resources/admin/js/popper.min.js"></script>
+        <script src="resources/admin/js/bootstrap.min.js"></script>
 		
 		<!-- Slimscroll JS -->
-        <script src="resources/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="resources/admin/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 		
 		<!-- Datatables JS -->
-		<script src="resources/plugins/datatables/jquery.dataTables.min.js"></script>
-		<script src="resources/plugins/datatables/datatables.min.js"></script>
+		<script src="resources/admin/plugins/datatables/jquery.dataTables.min.js"></script>
+		<script src="resources/admin/plugins/datatables/datatables.min.js"></script>
 		
 		<!-- Custom JS -->
-		<script  src="resources/js/script.js"></script>
+		<script  src="resources/admin/js/script.js"></script>
 		
     </body>
 </html>

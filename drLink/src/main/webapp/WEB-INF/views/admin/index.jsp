@@ -5,29 +5,36 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-        <title>Doccure - Dashboard</title>
+        <title>관리자페이지 - Dr.Link</title>
 		
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="resources/img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="${pageContext.request.contextPath}/resources/admin/img/favicon.png">
 		
 		<!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/admin/css/bootstrap.min.css">
 		
 		<!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/admin/css/font-awesome.min.css">
 		
 		<!-- Feathericon CSS -->
-        <link rel="stylesheet" href="resources/css/feathericon.min.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/admin/css/feathericon.min.css">
 		
-		<link rel="stylesheet" href="resources/plugins/morris/morris.css">
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/admin/plugins/morris/morris.css">
 		
 		<!-- Main CSS -->
-        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/admin/css/style.css">
 		
-		<!--[if lt IE 9]>
-			<script src="resources/js/html5shiv.min.js"></script>
-			<script src="resources/js/respond.min.js"></script>
-		<![endif]-->
+	<!-- 구글폰트 -->
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&amp;subset=korean" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: "Nanum Gothic", sans-serif;
+}
+	
+</style>
     </head>
     <body>
 	
@@ -40,10 +47,10 @@
 				<!-- Logo -->
                 <div class="header-left">
                     <a href="index" class="logo">
-						<img src="resources/img/logo.png" alt="Logo">
+						<img src="${pageContext.request.contextPath}/resources/admin/img/logo.png" alt="Logo">
 					</a>
 					<a href="index" class="logo logo-small">
-						<img src="resources/img/logo-small.png" alt="Logo" width="30" height="30">
+						<img src="${pageContext.request.contextPath}/resources/admin/img/logo-small.png" alt="Logo" width="30" height="30">
 					</a>
                 </div>
 				<!-- /Logo -->
@@ -84,7 +91,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/doctors/doctor-thumb-01.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="${pageContext.request.contextPath}/resources/admin/img/doctors/doctor-thumb-01.jpg">
 												</span>
 												<div class="media-body">
 													<p class="noti-details"><span class="noti-title">Dr. Ruby Perrin</span> Schedule <span class="noti-title">her appointment</span></p>
@@ -97,7 +104,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/patients/patient1.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="${pageContext.request.contextPath}/resources/admin/img/patients/patient1.jpg">
 												</span>
 												<div class="media-body">
 													<p class="noti-details"><span class="noti-title">Charlene Reed</span> has booked her appointment to <span class="noti-title">Dr. Ruby Perrin</span></p>
@@ -110,7 +117,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/patients/patient2.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="${pageContext.request.contextPath}/resources/admin/img/patients/patient2.jpg">
 												</span>
 												<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Travis Trimble</span> sent a amount of $210 for his <span class="noti-title">appointment</span></p>
@@ -123,7 +130,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/patients/patient3.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="${pageContext.request.contextPath}/resources/admin/img/patients/patient3.jpg">
 												</span>
 												<div class="media-body">
 													<p class="noti-details"><span class="noti-title">Carl Kelly</span> send a message <span class="noti-title"> to his doctor</span></p>
@@ -144,12 +151,12 @@
 					<!-- User Menu -->
 					<li class="nav-item dropdown has-arrow">
 						<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-							<span class="user-img"><img class="rounded-circle" src="resources/img/profiles/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
+							<span class="user-img"><img class="rounded-circle" src="${pageContext.request.contextPath}/resources/admin/img/profiles/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
 						</a>
 						<div class="dropdown-menu">
 							<div class="user-header">
 								<div class="avatar avatar-sm">
-									<img src="resources/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+									<img src="${pageContext.request.contextPath}/resources/admin/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
 								</div>
 								<div class="user-text">
 									<h6>Ryan Taylor</h6>
@@ -178,116 +185,39 @@
 								<span>Main</span>
 							</li>
 							<li class="active"> 
-								<a href="index"><i class="fe fe-home"></i> <span>Dashboard</span></a>
+								<a href="index"><i class="fe fe-home"></i> <span>Admin_Home</span></a>
 							</li>
 							<li> 
-								<a href="appointment-list"><i class="fe fe-layout"></i> <span>Appointments</span></a>
+								<a href="appointment-list"><i class="fe fe-layout"></i> <span>예약현황</span></a>
 							</li>
 							<li> 
-								<a href="specialities"><i class="fe fe-users"></i> <span>Specialities</span></a>
+								<a href="specialities"><i class="fe fe-users"></i> <span>진료과목</span></a>
 							</li>
 							<li> 
-								<a href="doctor-list"><i class="fe fe-user-plus"></i> <span>Doctors</span></a>
+								<a href="doctor-list"><i class="fe fe-user-plus"></i> <span>의사관리</span></a>
 							</li>
 							<li> 
-								<a href="patient-list"><i class="fe fe-user"></i> <span>Patients</span></a>
+								<a href="patient-list"><i class="fe fe-user"></i> <span>환자관리</span></a>
 							</li>
 							<li> 
-								<a href="reviews"><i class="fe fe-star-o"></i> <span>Reviews</span></a>
+								<a href="reviews"><i class="fe fe-star-o"></i> <span>후기관리</span></a>
 							</li>
 							<li> 
-								<a href="transactions-list"><i class="fe fe-activity"></i> <span>Transactions</span></a>
+								<a href="transactions-list"><i class="fe fe-activity"></i> <span>결제관리</span></a>
+							</li>
+							<li class="submenu">
+								<a href="#"><i class="fe fe-document"></i> <span> 게시판관리 </span> <span class="menu-arrow"></span></a>
+								<ul style="display: none;">
+									<li><a href="blog"> 공지사항 </a></li>
+									<li><a href="blog-details"> FAQ</a></li>
+									<li><a href="add-blog"> 건강소식 게시판 </a></li>
+								</ul>
 							</li>
 							<li> 
 								<a href="settings"><i class="fe fe-vector"></i> <span>Settings</span></a>
 							</li>
-							<li class="submenu">
-								<a href="#"><i class="fe fe-document"></i> <span> Reports</span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="invoice-report">Invoice Reports</a></li>
-								</ul>
-							</li>
-							<li class="menu-title"> 
-								<span>Pages</span>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="fe fe-document"></i> <span> Blog </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="blog"> Blog </a></li>
-									<li><a href="blog-details"> Blog Details</a></li>
-									<li><a href="add-blog"> Add Blog </a></li>
-									<li><a href="edit-blog"> Edit Blog </a></li>
-								</ul>
-							</li>
-							<li><a href="product-list"><i class="fe fe-layout"></i> <span>Product List</span></a></li>
-							<li><a href="pharmacy-list"><i class="fe fe-vector"></i> <span>Pharmacy List</span></a></li>
 							<li> 
-								<a href="profile"><i class="fe fe-user-plus"></i> <span>Profile</span></a>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="fe fe-document"></i> <span> Authentication </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="login"> Login </a></li>
-									<li><a href="register"> Register </a></li>
-									<li><a href="forgot-password"> Forgot Password </a></li>
-									<li><a href="lock-screen"> Lock Screen </a></li>
-								</ul>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="fe fe-warning"></i> <span> Error Pages </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="error-404">404 Error </a></li>
-									<li><a href="error-500">500 Error </a></li>
-								</ul>
-							</li>
-							<li> 
-								<a href="blank-page"><i class="fe fe-file"></i> <span>Blank Page</span></a>
-							</li>
-							<li class="menu-title"> 
-								<span>UI Interface</span>
-							</li>
-							<li> 
-								<a href="components"><i class="fe fe-vector"></i> <span>Components</span></a>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="fe fe-layout"></i> <span> Forms </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="form-basic-inputs">Basic Inputs </a></li>
-									<li><a href="form-input-groups">Input Groups </a></li>
-									<li><a href="form-horizontal">Horizontal Form </a></li>
-									<li><a href="form-vertical"> Vertical Form </a></li>
-									<li><a href="form-mask"> Form Mask </a></li>
-									<li><a href="form-validation"> Form Validation </a></li>
-								</ul>
-							</li>
-							<li class="submenu">
-								<a href="#"><i class="fe fe-table"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li><a href="tables-basic">Basic Tables </a></li>
-									<li><a href="data-tables">Data Table </a></li>
-								</ul>
-							</li>
-							<li class="submenu">
-								<a href="javascript:void(0);"><i class="fe fe-code"></i> <span>Multi Level</span> <span class="menu-arrow"></span></a>
-								<ul style="display: none;">
-									<li class="submenu">
-										<a href="javascript:void(0);"> <span>Level 1</span> <span class="menu-arrow"></span></a>
-										<ul style="display: none;">
-											<li><a href="javascript:void(0);"><span>Level 2</span></a></li>
-											<li class="submenu">
-												<a href="javascript:void(0);"> <span> Level 2</span> <span class="menu-arrow"></span></a>
-												<ul style="display: none;">
-													<li><a href="javascript:void(0);">Level 3</a></li>
-													<li><a href="javascript:void(0);">Level 3</a></li>
-												</ul>
-											</li>
-											<li><a href="javascript:void(0);"> <span>Level 2</span></a></li>
-										</ul>
-									</li>
-									<li>
-										<a href="javascript:void(0);"> <span>Level 1</span></a>
-									</li>
-								</ul>
+								<a href="profile"><i class="fe fe-user-plus"></i> <span>계정 관리</span></a>
 							</li>
 						</ul>
 					</div>
@@ -304,10 +234,7 @@
 					<div class="page-header">
 						<div class="row">
 							<div class="col-sm-12">
-								<h3 class="page-title">Welcome Admin!</h3>
-								<ul class="breadcrumb">
-									<li class="breadcrumb-item active">Dashboard</li>
-								</ul>
+								<h3 class="page-title">관리자님 환영합니다!</h3>
 							</div>
 						</div>
 					</div>
@@ -326,7 +253,7 @@
 										</div>
 									</div>
 									<div class="dash-widget-info">
-										<h6 class="text-muted">Doctors</h6>
+										<h6 class="text-muted">의사</h6>
 										<div class="progress progress-sm">
 											<div class="progress-bar bg-primary w-50"></div>
 										</div>
@@ -347,7 +274,7 @@
 									</div>
 									<div class="dash-widget-info">
 										
-										<h6 class="text-muted">Patients</h6>
+										<h6 class="text-muted">환자</h6>
 										<div class="progress progress-sm">
 											<div class="progress-bar bg-success w-50"></div>
 										</div>
@@ -363,12 +290,12 @@
 											<i class="fe fe-money"></i>
 										</span>
 										<div class="dash-count">
-											<h3>485</h3>
+											<h3>￦62523</h3>
 										</div>
 									</div>
 									<div class="dash-widget-info">
 										
-										<h6 class="text-muted">Appointment</h6>
+										<h6 class="text-muted">수익</h6>
 										<div class="progress progress-sm">
 											<div class="progress-bar bg-danger w-50"></div>
 										</div>
@@ -384,12 +311,12 @@
 											<i class="fe fe-folder"></i>
 										</span>
 										<div class="dash-count">
-											<h3>$62523</h3>
+											<h3>485</h3>
 										</div>
 									</div>
 									<div class="dash-widget-info">
 										
-										<h6 class="text-muted">Revenue</h6>
+										<h6 class="text-muted">예약</h6>
 										<div class="progress progress-sm">
 											<div class="progress-bar bg-warning w-50"></div>
 										</div>
@@ -398,13 +325,86 @@
 							</div>
 						</div>
 					</div>
+					
+					
+						<!-- Recent Orders -->
+							<div class="card card-table">
+								<div class="card-header">
+									<h4 class="card-title">예약 목록</h4>
+								</div>
+								<div class="card-body">
+									<div class="table-responsive">
+										<table class="table table-hover table-center mb-0">
+											<thead>
+												<tr>
+													<th>의사명</th>
+													<th>과목</th>
+													<th>환자명</th>
+													<th>예약시간</th>
+													<th>상태</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>
+														<h2 class="table-avatar">
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="${pageContext.request.contextPath}/resources/admin/img/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
+															<a href="profile">김길동</a>
+														</h2>
+													</td>
+													<td>안과</td>
+													<td>
+														<h2 class="table-avatar">
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="${pageContext.request.contextPath}/resources/admin/img/patients/patient1.jpg" alt="User Image"></a>
+															<a href="profile">홍길동</a>
+														</h2>
+													</td>
+													<td>2020.11.09 <span class="text-primary d-block">11.00 AM - 11.15 AM</span></td>
+													<td>
+														<div class="status-toggle">
+															<input type="checkbox" id="status_1" class="check" checked>
+															<label for="status_1" class="checktoggle">checkbox</label>
+														</div>
+													</td>
+												</tr>
+												
+												<tr>
+													<td>
+														<h2 class="table-avatar">
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="${pageContext.request.contextPath}/resources/admin/img/doctors/doctor-thumb-05.jpg" alt="User Image"></a>
+															<a href="profile">이길동</a>
+														</h2>
+													</td>
+													<td>피부과</td>
+													<td>
+														<h2 class="table-avatar">
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="${pageContext.request.contextPath}/resources/admin/img/patients/patient5.jpg" alt="User Image"></a>
+															<a href="profile">정길동</a>
+														</h2>
+													</td>
+													
+													<td>2020.11.20<span class="text-primary d-block">1.00 PM - 1.15 PM</span></td>
+													<td>
+														<div class="status-toggle">
+															<input type="checkbox" id="status_5" class="check" checked>
+															<label for="status_5" class="checktoggle">checkbox</label>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<!-- /Recent Orders -->
+					
 					<div class="row">
 						<div class="col-md-12 col-lg-6">
 						
 							<!-- Sales Chart -->
 							<div class="card card-chart">
 								<div class="card-header">
-									<h4 class="card-title">Revenue</h4>
+									<h4 class="card-title">수익</h4>
 								</div>
 								<div class="card-body">
 									<div id="morrisArea"></div>
@@ -418,7 +418,7 @@
 							<!-- Invoice Chart -->
 							<div class="card card-chart">
 								<div class="card-header">
-									<h4 class="card-title">Status</h4>
+									<h4 class="card-title">고객 현황</h4>
 								</div>
 								<div class="card-body">
 									<div id="morrisLine"></div>
@@ -434,29 +434,29 @@
 							<!-- Recent Orders -->
 							<div class="card card-table flex-fill">
 								<div class="card-header">
-									<h4 class="card-title">Doctors List</h4>
+									<h4 class="card-title">의사 목록</h4>
 								</div>
 								<div class="card-body">
 									<div class="table-responsive">
 										<table class="table table-hover table-center mb-0">
 											<thead>
 												<tr>
-													<th>Doctor Name</th>
-													<th>Speciality</th>
-													<th>Earned</th>
-													<th>Reviews</th>
+													<th>의사명</th>
+													<th>진료과목</th>
+													<th>월 예약건수</th>
+													<th>평점</th>
 												</tr>
 											</thead>
 											<tbody>
 												<tr>
 													<td>
 														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="${pageContext.request.contextPath}/resources/admin/img/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
 															<a href="profile">Dr. Ruby Perrin</a>
 														</h2>
 													</td>
 													<td>Dental</td>
-													<td>$3200.00</td>
+													<td>211</td>
 													<td>
 														<i class="fe fe-star text-warning"></i>
 														<i class="fe fe-star text-warning"></i>
@@ -468,63 +468,12 @@
 												<tr>
 													<td>
 														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-02.jpg" alt="User Image"></a>
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="${pageContext.request.contextPath}/resources/admin/img/doctors/doctor-thumb-02.jpg" alt="User Image"></a>
 															<a href="profile">Dr. Darren Elder</a>
 														</h2>
 													</td>
 													<td>Dental</td>
-													<td>$3100.00</td>
-													<td>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star-o text-secondary"></i>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-03.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Deborah Angel</a>
-														</h2>
-													</td>
-													<td>Cardiology</td>
-													<td>$4000.00</td>
-													<td>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star-o text-secondary"></i>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-04.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Sofia Brient</a>
-														</h2>
-													</td>
-													<td>Urology</td>
-													<td>$3200.00</td>
-													<td>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star text-warning"></i>
-														<i class="fe fe-star-o text-secondary"></i>
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-05.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Marvin Campbell</a>
-														</h2>
-													</td>
-													<td>Orthopaedics</td>
-													<td>$3500.00</td>
+													<td>211</td>
 													<td>
 														<i class="fe fe-star text-warning"></i>
 														<i class="fe fe-star text-warning"></i>
@@ -546,24 +495,24 @@
 							<!-- Feed Activity -->
 							<div class="card  card-table flex-fill">
 								<div class="card-header">
-									<h4 class="card-title">Patients List</h4>
+									<h4 class="card-title">환자 목록</h4>
 								</div>
 								<div class="card-body">
 									<div class="table-responsive">
 										<table class="table table-hover table-center mb-0">
 											<thead>
 												<tr>													
-													<th>Patient Name</th>
-													<th>Phone</th>
-													<th>Last Visit</th>
-													<th>Paid</th>													
+													<th>환자명</th>
+													<th>연락처</th>
+													<th>마지막 방문일</th>
+													<th>결제금액</th>													
 												</tr>
 											</thead>
 											<tbody>
 												<tr>
 													<td>
 														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient1.jpg" alt="User Image"></a>
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="${pageContext.request.contextPath}/resources/admin/img/patients/patient1.jpg" alt="User Image"></a>
 															<a href="profile">Charlene Reed </a>
 														</h2>
 													</td>
@@ -574,7 +523,7 @@
 												<tr>
 													<td>
 														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient2.jpg" alt="User Image"></a>
+															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="${pageContext.request.contextPath}/resources/admin/img/patients/patient2.jpg" alt="User Image"></a>
 															<a href="profile">Travis Trimble </a>
 														</h2>
 													</td>
@@ -582,39 +531,7 @@
 													<td>22 Oct 2019</td>
 													<td class="text-right">$200.00</td>
 												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient3.jpg" alt="User Image"></a>
-															<a href="profile">Carl Kelly</a>
-														</h2>
-													</td>
-													<td>2607247769</td>
-													<td>21 Oct 2019</td>
-													<td class="text-right">$250.00</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient4.jpg" alt="User Image"></a>
-															<a href="profile"> Michelle Fairfax</a>
-														</h2>
-													</td>
-													<td>5043686874</td>
-													<td>21 Sep 2019</td>
-													<td class="text-right">$150.00</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient5.jpg" alt="User Image"></a>
-															<a href="profile">Gina Moore</a>
-														</h2>
-													</td>
-													<td>9548207887</td>
-													<td>18 Sep 2019</td>
-													<td class="text-right">$350.00</td>
-												</tr>
+												
 											</tbody>
 										</table>
 									</div>
@@ -627,158 +544,7 @@
 					<div class="row">
 						<div class="col-md-12">
 						
-							<!-- Recent Orders -->
-							<div class="card card-table">
-								<div class="card-header">
-									<h4 class="card-title">Appointment List</h4>
-								</div>
-								<div class="card-body">
-									<div class="table-responsive">
-										<table class="table table-hover table-center mb-0">
-											<thead>
-												<tr>
-													<th>Doctor Name</th>
-													<th>Speciality</th>
-													<th>Patient Name</th>
-													<th>Apointment Time</th>
-													<th>Status</th>
-													<th class="text-right">Amount</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-01.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Ruby Perrin</a>
-														</h2>
-													</td>
-													<td>Dental</td>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient1.jpg" alt="User Image"></a>
-															<a href="profile">Charlene Reed </a>
-														</h2>
-													</td>
-													<td>9 Nov 2019 <span class="text-primary d-block">11.00 AM - 11.15 AM</span></td>
-													<td>
-														<div class="status-toggle">
-															<input type="checkbox" id="status_1" class="check" checked>
-															<label for="status_1" class="checktoggle">checkbox</label>
-														</div>
-													</td>
-													<td class="text-right">
-														$200.00
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-02.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Darren Elder</a>
-														</h2>
-													</td>
-													<td>Dental</td>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient2.jpg" alt="User Image"></a>
-															<a href="profile">Travis Trimble </a>
-														</h2>
-													</td>
-													
-													<td>5 Nov 2019 <span class="text-primary d-block">11.00 AM - 11.35 AM</span></td>
-													<td>
-														<div class="status-toggle">
-															<input type="checkbox" id="status_2" class="check" checked>
-															<label for="status_2" class="checktoggle">checkbox</label>
-														</div>
-													</td>
-													<td class="text-right">
-														$300.00
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-03.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Deborah Angel</a>
-														</h2>
-													</td>
-													<td>Cardiology</td>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient3.jpg" alt="User Image"></a>
-															<a href="profile">Carl Kelly</a>
-														</h2>
-													</td>
-													<td>11 Nov 2019 <span class="text-primary d-block">12.00 PM - 12.15 PM</span></td>
-													<td>
-														<div class="status-toggle">
-															<input type="checkbox" id="status_3" class="check" checked>
-															<label for="status_3" class="checktoggle">checkbox</label>
-														</div>
-													</td>
-													<td class="text-right">
-														$150.00
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-04.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Sofia Brient</a>
-														</h2>
-													</td>
-													<td>Urology</td>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient4.jpg" alt="User Image"></a>
-															<a href="profile"> Michelle Fairfax</a>
-														</h2>
-													</td>
-													<td>7 Nov 2019<span class="text-primary d-block">1.00 PM - 1.20 PM</span></td>
-													<td>
-														<div class="status-toggle">
-															<input type="checkbox" id="status_4" class="check" checked>
-															<label for="status_4" class="checktoggle">checkbox</label>
-														</div>
-													</td>
-													<td class="text-right">
-														$150.00
-													</td>
-												</tr>
-												<tr>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/doctors/doctor-thumb-05.jpg" alt="User Image"></a>
-															<a href="profile">Dr. Marvin Campbell</a>
-														</h2>
-													</td>
-													<td>Orthopaedics</td>
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2"><img class="avatar-img rounded-circle" src="resources/img/patients/patient5.jpg" alt="User Image"></a>
-															<a href="profile">Gina Moore</a>
-														</h2>
-													</td>
-													
-													<td>15 Nov 2019 <span class="text-primary d-block">1.00 PM - 1.15 PM</span></td>
-													<td>
-														<div class="status-toggle">
-															<input type="checkbox" id="status_5" class="check" checked>
-															<label for="status_5" class="checktoggle">checkbox</label>
-														</div>
-													</td>
-													<td class="text-right">
-														$200.00
-													</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-								</div>
-							</div>
-							<!-- /Recent Orders -->
+						
 							
 						</div>
 					</div>
@@ -791,21 +557,21 @@
 		<!-- /Main Wrapper -->
 		
 		<!-- jQuery -->
-        <script src="resources/js/jquery-3.2.1.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/admin/js/jquery-3.2.1.min.js"></script>
 		
 		<!-- Bootstrap Core JS -->
-        <script src="resources/js/popper.min.js"></script>
-        <script src="resources/js/bootstrap.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/admin/js/popper.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/admin/js/bootstrap.min.js"></script>
 		
 		<!-- Slimscroll JS -->
-        <script src="resources/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="${pageContext.request.contextPath}/resources/admin/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 		
-		<script src="resources/plugins/raphael/raphael.min.js"></script>    
-		<script src="resources/plugins/morris/morris.min.js"></script>  
-		<script src="resources/js/chart.morris.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/admin/plugins/raphael/raphael.min.js"></script>    
+		<script src="${pageContext.request.contextPath}/resources/admin/plugins/morris/morris.min.js"></script>  
+		<script src="${pageContext.request.contextPath}/resources/admin/js/chart.morris.js"></script>
 		
 		<!-- Custom JS -->
-		<script  src="resources/js/script.js"></script>
+		<script  src="${pageContext.request.contextPath}/resources/admin/js/script.js"></script>
 		
     </body>
 </html>

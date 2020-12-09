@@ -129,6 +129,19 @@ width:auto !important;
 							<li><a href="aiTestSuccess">ai진단완료</a></li>
 						</ul>
 					</li>
+					<li class="has-submenu">
+						<a href="">관리자<i class="fas fa-chevron-down"></i></a>
+						<ul class="submenu">
+							<li><a href="appointmentList">예약관리</a></li>
+							<li><a href="specialities">진료과목 관리</a></li>
+							<li><a href="doctorList">의사목록 관리</a></li>
+							<li><a href="patientList">환자목록 관리</a></li>
+							<li><a href="reviews">리뷰관리</a></li>
+							<li><a href="transactionsList">결제내역 관리</a></li>
+							<li><a href="AI_medical_eye">ai진단</a></li>
+							<li><a href="indexAdmin">관리자메인</a></li>
+						</ul>
+					</li>
 					
 					<li class="login-link">
 						<a href="${contextPath}login">로그인 / 회원가입</a>

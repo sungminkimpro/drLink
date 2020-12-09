@@ -8,26 +8,26 @@
         <title>Doccure - Specialities Page</title>
 		
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="resources/img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="resources/admin/img/favicon.png">
 		
 		<!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="resources/admin/css/bootstrap.min.css">
 		
 		<!-- Fontawesome CSS -->
-        <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+        <link rel="stylesheet" href="resources/admin/css/font-awesome.min.css">
 		
 		<!-- Feathericon CSS -->
-        <link rel="stylesheet" href="resources/css/feathericon.min.css">
+        <link rel="stylesheet" href="resources/admin/css/feathericon.min.css">
 		
 		<!-- Datatables CSS -->
-		<link rel="stylesheet" href="resources/plugins/datatables/datatables.min.css">
+		<link rel="stylesheet" href="resources/admin/plugins/datatables/datatables.min.css">
 		
 		<!-- Main CSS -->
-        <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="stylesheet" href="resources/admin/css/style.css">
 		
 		<!--[if lt IE 9]>
-			<script src="resources/js/html5shiv.min.js"></script>
-			<script src="resources/js/respond.min.js"></script>
+			<script src="resources/admin/js/html5shiv.min.js"></script>
+			<script src="resources/admin/js/respond.min.js"></script>
 		<![endif]-->
     </head>
     <body>
@@ -41,10 +41,10 @@
 				<!-- Logo -->
                 <div class="header-left">
                     <a href="index" class="logo">
-						<img src="resources/img/logo.png" alt="Logo">
+						<img src="resources/admin/img/logo.png" alt="Logo">
 					</a>
 					<a href="index" class="logo logo-small">
-						<img src="resources/img/logo-small.png" alt="Logo" width="30" height="30">
+						<img src="resources/admin/img/logo-small.png" alt="Logo" width="30" height="30">
 					</a>
                 </div>
 				<!-- /Logo -->
@@ -85,7 +85,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/doctors/doctor-thumb-01.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="resources/admin/img/doctors/doctor-thumb-01.jpg">
 												</span>
 												<div class="media-body">
 													<p class="noti-details"><span class="noti-title">Dr. Ruby Perrin</span> Schedule <span class="noti-title">her appointment</span></p>
@@ -98,7 +98,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/patients/patient1.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="resources/admin/img/patients/patient1.jpg">
 												</span>
 												<div class="media-body">
 													<p class="noti-details"><span class="noti-title">Charlene Reed</span> has booked her appointment to <span class="noti-title">Dr. Ruby Perrin</span></p>
@@ -111,7 +111,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/patients/patient2.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="resources/admin/img/patients/patient2.jpg">
 												</span>
 												<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Travis Trimble</span> sent a amount of $210 for his <span class="noti-title">appointment</span></p>
@@ -124,7 +124,7 @@
 										<a href="#">
 											<div class="media">
 												<span class="avatar avatar-sm">
-													<img class="avatar-img rounded-circle" alt="User Image" src="resources/img/patients/patient3.jpg">
+													<img class="avatar-img rounded-circle" alt="User Image" src="resources/admin/img/patients/patient3.jpg">
 												</span>
 												<div class="media-body">
 													<p class="noti-details"><span class="noti-title">Carl Kelly</span> send a message <span class="noti-title"> to his doctor</span></p>
@@ -145,12 +145,12 @@
 					<!-- User Menu -->
 					<li class="nav-item dropdown has-arrow">
 						<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-							<span class="user-img"><img class="rounded-circle" src="resources/img/profiles/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
+							<span class="user-img"><img class="rounded-circle" src="resources/admin/img/profiles/avatar-01.jpg" width="31" alt="Ryan Taylor"></span>
 						</a>
 						<div class="dropdown-menu">
 							<div class="user-header">
 								<div class="avatar avatar-sm">
-									<img src="resources/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
+									<img src="resources/admin/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle">
 								</div>
 								<div class="user-text">
 									<h6>Ryan Taylor</h6>
@@ -185,7 +185,7 @@
 								<a href="appointment-list"><i class="fe fe-layout"></i> <span>Appointments</span></a>
 							</li>
 							<li class="active"> 
-								<a href="specialities"><i class="fe fe-users"></i> <span>Specialities</span></a>
+								<a href="specialities"><i class="fe fe-users"></i> <span>진료과목 관리</span></a>
 							</li>
 							<li> 
 								<a href="doctor-list"><i class="fe fe-user-plus"></i> <span>Doctors</span></a>
@@ -304,14 +304,14 @@
 					<div class="page-header">
 						<div class="row">
 							<div class="col-sm-7 col-auto">
-								<h3 class="page-title">Specialities</h3>
+								<h3 class="page-title">진료과목 관리</h3>
 								<ul class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index">Dashboard</a></li>
-									<li class="breadcrumb-item active">Specialities</li>
+									<li class="breadcrumb-item active">진료과목</li>
 								</ul>
 							</div>
 							<div class="col-sm-5 col">
-								<a href="#Add_Specialities_details" data-toggle="modal" class="btn btn-primary float-right mt-2">Add</a>
+								<a href="#Add_Specialities_details" data-toggle="modal" class="btn btn-primary float-right mt-2">추가</a>
 							</div>
 						</div>
 					</div>
@@ -324,9 +324,9 @@
 										<table class="datatable table table-hover table-center mb-0">
 											<thead>
 												<tr>
-													<th>#</th>
-													<th>Specialities</th>
-													<th class="text-right">Actions</th>
+													<th>진료과목 번호</th>
+													<th>진료과목 명</th>
+													<th class="text-right">수정 및 삭제</th>
 												</tr>
 											</thead>
 											<tbody>
@@ -336,19 +336,19 @@
 													<td>
 														<h2 class="table-avatar">
 															<a href="profile" class="avatar avatar-sm mr-2">
-																<img class="avatar-img" src="resources/img/specialities/specialities-01.png" alt="Speciality">
+																<img class="avatar-img" src="resources/admin/img/specialities/specialities-01.png" alt="Speciality">
 															</a>
-															<a href="profile">Urology</a>
+															<a href="profile">피부과</a>
 														</h2>
 													</td>
 												
 													<td class="text-right">
 														<div class="actions">
 															<a class="btn btn-sm bg-success-light" data-toggle="modal" href="#edit_specialities_details">
-																<i class="fe fe-pencil"></i> Edit
+																<i class="fe fe-pencil"></i> 수정
 															</a>
 															<a  data-toggle="modal" href="#delete_modal" class="btn btn-sm bg-danger-light">
-																<i class="fe fe-trash"></i> Delete
+																<i class="fe fe-trash"></i> 삭제
 															</a>
 														</div>
 													</td>
@@ -359,19 +359,19 @@
 													<td>
 														<h2 class="table-avatar">
 															<a href="profile" class="avatar avatar-sm mr-2">
-																<img class="avatar-img" src="resources/img/specialities/specialities-02.png" alt="Speciality">
+																<img class="avatar-img" src="resources/admin/img/specialities/specialities-02.png" alt="Speciality">
 															</a>
-															<a href="profile">Neurology</a>
+															<a href="profile">안과</a>
 														</h2>
 													</td>
 												
 													<td class="text-right">
 														<div class="actions">
 															<a class="btn btn-sm bg-success-light" data-toggle="modal" href="#edit_specialities_details">
-																<i class="fe fe-pencil"></i> Edit
+																<i class="fe fe-pencil"></i> 수정
 															</a>
 															<a  data-toggle="modal" href="#delete_modal" class="btn btn-sm bg-danger-light">
-																<i class="fe fe-trash"></i> Delete
+																<i class="fe fe-trash"></i> 삭제
 															</a>
 														</div>
 													</td>
@@ -382,65 +382,19 @@
 													<td>
 														<h2 class="table-avatar">
 															<a href="profile" class="avatar avatar-sm mr-2">
-																<img class="avatar-img" src="resources/img/specialities/specialities-03.png" alt="Speciality">
+																<img class="avatar-img" src="resources/admin/img/specialities/specialities-03.png" alt="Speciality">
 															</a>
-															<a href="profile">Orthopedic</a>
+															<a href="profile">정신과</a>
 														</h2>
 													</td>
 												
 													<td class="text-right">
 														<div class="actions">
 															<a class="btn btn-sm bg-success-light" data-toggle="modal" href="#edit_specialities_details">
-																<i class="fe fe-pencil"></i> Edit
+																<i class="fe fe-pencil"></i> 수정
 															</a>
 															<a  data-toggle="modal" href="#delete_modal" class="btn btn-sm bg-danger-light">
-																<i class="fe fe-trash"></i> Delete
-															</a>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>#SP004</td>
-													
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2">
-																<img class="avatar-img" src="resources/img/specialities/specialities-04.png" alt="Speciality">
-															</a>
-															<a href="profile">Cardiologist</a>
-														</h2>
-													</td>
-												
-													<td class="text-right">
-														<div class="actions">
-															<a class="btn btn-sm bg-success-light" data-toggle="modal" href="#edit_specialities_details">
-																<i class="fe fe-pencil"></i> Edit
-															</a>
-															<a  data-toggle="modal" href="#delete_modal" class="btn btn-sm bg-danger-light">
-																<i class="fe fe-trash"></i> Delete
-															</a>
-														</div>
-													</td>
-												</tr>
-												<tr>
-													<td>#SP005</td>
-													
-													<td>
-														<h2 class="table-avatar">
-															<a href="profile" class="avatar avatar-sm mr-2">
-																<img class="avatar-img" src="resources/img/specialities/specialities-05.png" alt="Speciality">
-															</a>
-															<a href="profile">Dentist</a>
-														</h2>
-													</td>
-												
-													<td class="text-right">
-														<div class="actions">
-															<a class="btn btn-sm bg-success-light" data-toggle="modal" href="#edit_specialities_details">
-																<i class="fe fe-pencil"></i> Edit
-															</a>
-															<a class="btn btn-sm bg-danger-light" data-toggle="modal" href="#delete_modal">
-																<i class="fe fe-trash"></i> Delete
+																<i class="fe fe-trash"></i> 삭제
 															</a>
 														</div>
 													</td>
@@ -462,7 +416,7 @@
 				<div class="modal-dialog modal-dialog-centered" role="document" >
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title">Add Specialities</h5>
+							<h5 class="modal-title">진료과목 추가</h5>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
@@ -472,19 +426,19 @@
 								<div class="row form-row">
 									<div class="col-12 col-sm-6">
 										<div class="form-group">
-											<label>Specialities</label>
+											<label>진료과목</label>
 											<input type="text" class="form-control">
 										</div>
 									</div>
 									<div class="col-12 col-sm-6">
 										<div class="form-group">
-											<label>Image</label>
+											<label>이미지</label>
 											<input type="file"  class="form-control">
 										</div>
 									</div>
 									
 								</div>
-								<button type="submit" class="btn btn-primary btn-block">Save Changes</button>
+								<button type="submit" class="btn btn-primary btn-block">저장하기</button>
 							</form>
 						</div>
 					</div>
@@ -497,7 +451,7 @@
 				<div class="modal-dialog modal-dialog-centered" role="document" >
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title">Edit Specialities</h5>
+							<h5 class="modal-title">진료과목 수정</h5>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
@@ -507,19 +461,19 @@
 								<div class="row form-row">
 									<div class="col-12 col-sm-6">
 										<div class="form-group">
-											<label>Specialities</label>
+											<label>진료과목</label>
 											<input type="text" class="form-control" value="Cardiology">
 										</div>
 									</div>
 									<div class="col-12 col-sm-6">
 										<div class="form-group">
-											<label>Image</label>
+											<label>이미지</label>
 											<input type="file"  class="form-control">
 										</div>
 									</div>
 									
 								</div>
-								<button type="submit" class="btn btn-primary btn-block">Save Changes</button>
+								<button type="submit" class="btn btn-primary btn-block">저장하기</button>
 							</form>
 						</div>
 					</div>
@@ -539,10 +493,10 @@
 						</div>-->
 						<div class="modal-body">
 							<div class="form-content p-2">
-								<h4 class="modal-title">Delete</h4>
-								<p class="mb-4">Are you sure want to delete?</p>
-								<button type="button" class="btn btn-primary">Save </button>
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								<h4 class="modal-title">진료과목 삭제</h4>
+								<p class="mb-4">정말로 해당 진료과목을 삭제하시겠습니까?</p>
+								<button type="button" class="btn btn-primary">삭제하기 </button>
+								<button type="button" class="btn btn-danger" data-dismiss="modal">취소하기</button>
 							</div>
 						</div>
 					</div>
@@ -553,21 +507,21 @@
 		<!-- /Main Wrapper -->
 		
 		<!-- jQuery -->
-        <script src="resources/js/jquery-3.2.1.min.js"></script>
+        <script src="resources/admin/js/jquery-3.2.1.min.js"></script>
 		
 		<!-- Bootstrap Core JS -->
-        <script src="resources/js/popper.min.js"></script>
-        <script src="resources/js/bootstrap.min.js"></script>
+        <script src="resources/admin/js/popper.min.js"></script>
+        <script src="resources/admin/js/bootstrap.min.js"></script>
 		
 		<!-- Slimscroll JS -->
-        <script src="resources/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="resources/admin/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 		
 		<!-- Datatables JS -->
-		<script src="resources/plugins/datatables/jquery.dataTables.min.js"></script>
-		<script src="resources/plugins/datatables/datatables.min.js"></script>
+		<script src="resources/admin/plugins/datatables/jquery.dataTables.min.js"></script>
+		<script src="resources/admin/plugins/datatables/datatables.min.js"></script>
 		
 		<!-- Custom JS -->
-		<script  src="resources/js/script.js"></script>
+		<script  src="resources/admin/js/script.js"></script>
 		
     </body>
 </html>
